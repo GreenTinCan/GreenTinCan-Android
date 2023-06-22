@@ -55,4 +55,10 @@
         <item name="cornerSize">10%</item>
     </style>
 
+    <style name="Bottom_Rounding_10_per_ImageView" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeBottomLeft">10%</item>
+        <item name="cornerSizeBottomRight">10%</item>
+    </style>
+
 </resources>

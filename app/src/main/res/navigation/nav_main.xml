@@ -24,6 +24,13 @@
             app:exitAnim="@anim/nav_default_exit_anim"
             app:popEnterAnim="@anim/nav_default_pop_enter_anim"
             app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+        <action
+            android:id="@+id/action_nav_meeting_to_recruitmentDetailFragment"
+            app:destination="@id/recruitmentDetailFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
     </fragment>
     <fragment
         android:id="@+id/nav_my_page"
@@ -35,5 +42,10 @@
         android:name="com.example.protalktime.presentation.community.CommunityMainFragment"
         android:label="fragment_community_main"
         tools:layout="@layout/fragment_community_main" />
+    <fragment
+        android:id="@+id/recruitmentDetailFragment"
+        android:name="com.example.protalktime.presentation.meeting.RecruitmentDetailFragment"
+        android:label="fragment_recruitment_detail"
+        tools:layout="@layout/fragment_recruitment_detail" />
 
 </navigation>

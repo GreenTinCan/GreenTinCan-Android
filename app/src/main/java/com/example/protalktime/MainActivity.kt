@@ -36,7 +36,6 @@ class MainActivity : BaseActivity<ActivityMainBinding>(R.layout.activity_main) {
                 when (destination.id) {
                     R.id.nav_meeting, R.id.nav_my_page, R.id.nav_community -> View.VISIBLE
                     else -> {
-                        setNavigationBarColor(window.navigationBarColor)
                         View.GONE
                     }
                 }
