@@ -1,58 +1,198 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="FontWeight_1_Thin"><item name="android:fontFamily">@font/noto_sans_kr_thin</item></style>
-    <style name="FontWeight_2_Light"><item name="android:fontFamily">@font/noto_sans_kr_light</item></style>
-    <style name="FontWeight_3_Regular"><item name="android:fontFamily">@font/noto_sans_kr_regular</item></style>
-    <style name="FontWeight_4_Medium"><item name="android:fontFamily">@font/noto_sans_kr_medium</item></style>
-    <style name="FontWeight_5_Bold"><item name="android:fontFamily">@font/noto_sans_kr_bold</item></style>
-    <style name="FontWeight_6_Black"><item name="android:fontFamily">@font/noto_sans_kr_black</item></style>
+
+    <style name="FontWeight_1_Thin">
+        <item name="android:fontFamily">@font/noto_sans_kr_thin</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+    <style name="FontWeight_2_Light">
+        <item name="android:fontFamily">@font/noto_sans_kr_light</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+    <style name="FontWeight_3_Regular">
+        <item name="android:fontFamily">@font/noto_sans_kr_regular</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+    <style name="FontWeight_4_Medium">
+        <item name="android:fontFamily">@font/noto_sans_kr_medium</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+    <style name="FontWeight_5_Bold">
+        <item name="android:fontFamily">@font/noto_sans_kr_bold</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+    <style name="FontWeight_6_Black">
+        <item name="android:fontFamily">@font/noto_sans_kr_black</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
 
     <!-- Light Text   -->
-    <style name="Text_10_Light" parent="FontWeight_2_Light"><item name="android:textSize">10sp</item></style>
-    <style name="Text_12_Light" parent="FontWeight_2_Light"><item name="android:textSize">12sp</item></style>
-    <style name="Text_14_Light" parent="FontWeight_2_Light"><item name="android:textSize">14sp</item></style>
-    <style name="Text_16_Light" parent="FontWeight_2_Light"><item name="android:textSize">16sp</item></style>
-    <style name="Text_18_Light" parent="FontWeight_2_Light"><item name="android:textSize">18sp</item></style>
-    <style name="Text_20_Light" parent="FontWeight_2_Light"><item name="android:textSize">20sp</item></style>
-    <style name="Text_22_Light" parent="FontWeight_2_Light"><item name="android:textSize">22sp</item></style>
-    <style name="Text_24_Light" parent="FontWeight_2_Light"><item name="android:textSize">24sp</item></style>
-    <style name="Text_26_Light" parent="FontWeight_2_Light"><item name="android:textSize">26sp</item></style>
-    <style name="Text_28_Light" parent="FontWeight_2_Light"><item name="android:textSize">28sp</item></style>
-    
+    <style name="Text_10_Light" parent="FontWeight_2_Light">
+        <item name="android:textSize">10sp</item>
+    </style>
+
+    <style name="Text_12_Light" parent="FontWeight_2_Light">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="Text_14_Light" parent="FontWeight_2_Light">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="Text_16_Light" parent="FontWeight_2_Light">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="Text_18_Light" parent="FontWeight_2_Light">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="Text_20_Light" parent="FontWeight_2_Light">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="Text_22_Light" parent="FontWeight_2_Light">
+        <item name="android:textSize">22sp</item>
+    </style>
+
+    <style name="Text_24_Light" parent="FontWeight_2_Light">
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="Text_26_Light" parent="FontWeight_2_Light">
+        <item name="android:textSize">26sp</item>
+    </style>
+
+    <style name="Text_28_Light" parent="FontWeight_2_Light">
+        <item name="android:textSize">28sp</item>
+    </style>
+
     <!-- Regular Text -->
-    <style name="Text_10_Regular" parent="FontWeight_3_Regular"><item name="android:textSize">10sp</item></style>
-    <style name="Text_12_Regular" parent="FontWeight_3_Regular"><item name="android:textSize">12sp</item></style>
-    <style name="Text_14_Regular" parent="FontWeight_3_Regular"><item name="android:textSize">14sp</item></style>
-    <style name="Text_16_Regular" parent="FontWeight_3_Regular"><item name="android:textSize">16sp</item></style>
-    <style name="Text_18_Regular" parent="FontWeight_3_Regular"><item name="android:textSize">18sp</item></style>
-    <style name="Text_20_Regular" parent="FontWeight_3_Regular"><item name="android:textSize">20sp</item></style>
-    <style name="Text_22_Regular" parent="FontWeight_3_Regular"><item name="android:textSize">22sp</item></style>
-    <style name="Text_24_Regular" parent="FontWeight_3_Regular"><item name="android:textSize">24sp</item></style>
-    <style name="Text_26_Regular" parent="FontWeight_3_Regular"><item name="android:textSize">26sp</item></style>
-    <style name="Text_28_Regular" parent="FontWeight_3_Regular"><item name="android:textSize">28sp</item></style>
+    <style name="Text_10_Regular" parent="FontWeight_3_Regular">
+        <item name="android:textSize">10sp</item>
+    </style>
+
+    <style name="Text_12_Regular" parent="FontWeight_3_Regular">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="Text_14_Regular" parent="FontWeight_3_Regular">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="Text_16_Regular" parent="FontWeight_3_Regular">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="Text_18_Regular" parent="FontWeight_3_Regular">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="Text_20_Regular" parent="FontWeight_3_Regular">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="Text_22_Regular" parent="FontWeight_3_Regular">
+        <item name="android:textSize">22sp</item>
+    </style>
+
+    <style name="Text_24_Regular" parent="FontWeight_3_Regular">
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="Text_26_Regular" parent="FontWeight_3_Regular">
+        <item name="android:textSize">26sp</item>
+    </style>
+
+    <style name="Text_28_Regular" parent="FontWeight_3_Regular">
+        <item name="android:textSize">28sp</item>
+    </style>
 
     <!-- Medium Text -->
-    <style name="Text_10_Medium" parent="FontWeight_4_Medium"><item name="android:textSize">10sp</item></style>
-    <style name="Text_12_Medium" parent="FontWeight_4_Medium"><item name="android:textSize">12sp</item></style>
-    <style name="Text_14_Medium" parent="FontWeight_4_Medium"><item name="android:textSize">14sp</item></style>
-    <style name="Text_16_Medium" parent="FontWeight_4_Medium"><item name="android:textSize">16sp</item></style>
-    <style name="Text_18_Medium" parent="FontWeight_4_Medium"><item name="android:textSize">18sp</item></style>
-    <style name="Text_20_Medium" parent="FontWeight_4_Medium"><item name="android:textSize">20sp</item></style>
-    <style name="Text_22_Medium" parent="FontWeight_4_Medium"><item name="android:textSize">22sp</item></style>
-    <style name="Text_24_Medium" parent="FontWeight_4_Medium"><item name="android:textSize">24sp</item></style>
-    <style name="Text_26_Medium" parent="FontWeight_4_Medium"><item name="android:textSize">26sp</item></style>
-    <style name="Text_28_Medium" parent="FontWeight_4_Medium"><item name="android:textSize">28sp</item></style>
+    <style name="Text_10_Medium" parent="FontWeight_4_Medium">
+        <item name="android:textSize">10sp</item>
+    </style>
+
+    <style name="Text_12_Medium" parent="FontWeight_4_Medium">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="Text_14_Medium" parent="FontWeight_4_Medium">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="Text_16_Medium" parent="FontWeight_4_Medium">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="Text_18_Medium" parent="FontWeight_4_Medium">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="Text_20_Medium" parent="FontWeight_4_Medium">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="Text_22_Medium" parent="FontWeight_4_Medium">
+        <item name="android:textSize">22sp</item>
+    </style>
+
+    <style name="Text_24_Medium" parent="FontWeight_4_Medium">
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="Text_26_Medium" parent="FontWeight_4_Medium">
+        <item name="android:textSize">26sp</item>
+    </style>
+
+    <style name="Text_28_Medium" parent="FontWeight_4_Medium">
+        <item name="android:textSize">28sp</item>
+    </style>
 
     <!-- Bold Text -->
-    <style name="Text_10_Bold" parent="FontWeight_5_Bold"><item name="android:textSize">10sp</item></style>
-    <style name="Text_12_Bold" parent="FontWeight_5_Bold"><item name="android:textSize">12sp</item></style>
-    <style name="Text_14_Bold" parent="FontWeight_5_Bold"><item name="android:textSize">14sp</item></style>
-    <style name="Text_16_Bold" parent="FontWeight_5_Bold"><item name="android:textSize">16sp</item></style>
-    <style name="Text_18_Bold" parent="FontWeight_5_Bold"><item name="android:textSize">18sp</item></style>
-    <style name="Text_20_Bold" parent="FontWeight_5_Bold"><item name="android:textSize">20sp</item></style>
-    <style name="Text_22_Bold" parent="FontWeight_5_Bold"><item name="android:textSize">22sp</item></style>
-    <style name="Text_24_Bold" parent="FontWeight_5_Bold"><item name="android:textSize">24sp</item></style>
-    <style name="Text_26_Bold" parent="FontWeight_5_Bold"><item name="android:textSize">26sp</item></style>
-    <style name="Text_28_Bold" parent="FontWeight_5_Bold"><item name="android:textSize">28sp</item></style>
+    <style name="Text_10_Bold" parent="FontWeight_5_Bold">
+        <item name="android:textSize">10sp</item>
+    </style>
+
+    <style name="Text_12_Bold" parent="FontWeight_5_Bold">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="Text_14_Bold" parent="FontWeight_5_Bold">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="Text_16_Bold" parent="FontWeight_5_Bold">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="Text_18_Bold" parent="FontWeight_5_Bold">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="Text_20_Bold" parent="FontWeight_5_Bold">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="Text_22_Bold" parent="FontWeight_5_Bold">
+        <item name="android:textSize">22sp</item>
+    </style>
+
+    <style name="Text_24_Bold" parent="FontWeight_5_Bold">
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="Text_26_Bold" parent="FontWeight_5_Bold">
+        <item name="android:textSize">26sp</item>
+    </style>
+
+    <style name="Text_28_Bold" parent="FontWeight_5_Bold">
+        <item name="android:textSize">28sp</item>
+    </style>
 
 </resources>

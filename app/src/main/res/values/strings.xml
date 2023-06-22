@@ -7,5 +7,6 @@
     <string name="nav_third_label">마이 페이지</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="meeting_search_bar_hint">원하는 모임을 검색하세요</string>
 
 </resources>

@@ -23,4 +23,36 @@
         <item name="android:textAppearance">@style/Text_16_Medium.Base_09</item>
     </style>
 
+    <!-- Chip Button Style -->
+    <style name="CustomFilterChipStyle" parent="Widget.MaterialComponents.Chip.Filter">
+        <item name="chipBackgroundColor">@color/selector_chip_color</item>
+        <item name="android:textColor">@color/selector_chip_text_color</item>
+        <item name="android:textAppearance">@style/Text_14_Regular</item>
+        <item name="checkedIconEnabled">false</item>
+        <item name="checkedIcon">@null</item>
+        <item name="rippleColor">@color/transparent</item>
+    </style>
+
+    <style name="CustomFilterGrayChipStyle" parent="Widget.MaterialComponents.Chip.Filter">
+        <item name="chipBackgroundColor">@color/Base_08</item>
+        <item name="android:textColor">@color/Primary_03</item>
+        <item name="android:textAppearance">@style/Text_12_Regular</item>
+        <item name="checkedIconEnabled">false</item>
+        <item name="checkedIcon">@null</item>
+        <item name="android:selectable">false</item>
+        <item name="minHeight">44dp</item>
+        <item name="rippleColor">@color/transparent</item>
+    </style>
+
+    <!-- Shapeable Image Corner -->
+    <style name="CircleImageView" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <style name="Rounding_10_per_ImageView" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">10%</item>
+    </style>
+
 </resources>
