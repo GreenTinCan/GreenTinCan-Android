@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 바텀 네비게이션 텍스트 -->
+    <style name="Widget.BottomNavigationView" parent="Widget.Material3.BottomNavigationView">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="Widget.BottomNavigationView.Indicator" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
+        <item name="android:color">@color/Primary_08</item>
+    </style>
+
+    <style name="Widget.BottomNavigationView.InActive" parent="Widget.BottomNavigationView">
+        <item name="android:fontFamily">@font/noto_sans_kr_medium</item>
+    </style>
+
+    <style name="Widget.BottomNavigationView.Active" parent="Widget.BottomNavigationView">
+        <item name="android:fontFamily">@font/noto_sans_kr_medium</item>
+    </style>
+
+</resources>

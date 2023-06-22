@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">ProTalkTime</string>
+
+    <!-- Bottom Navigation -->
+    <string name="nav_first_label">모임</string>
+    <string name="nav_second_label">커뮤니티</string>
+    <string name="nav_third_label">마이 페이지</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
 </resources>

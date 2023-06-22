@@ -4,8 +4,8 @@
     <style name="FontWeight_2_Light"><item name="android:fontFamily">@font/noto_sans_kr_light</item></style>
     <style name="FontWeight_3_Regular"><item name="android:fontFamily">@font/noto_sans_kr_regular</item></style>
     <style name="FontWeight_4_Medium"><item name="android:fontFamily">@font/noto_sans_kr_medium</item></style>
-    <style name="FontWeight_5_Bold"><item name="android:fontFamily">@font/noto_sans_kr_thin</item></style>
-    <style name="FontWeight_6_Black"><item name="android:fontFamily">@font/noto_sans_kr_thin</item></style>
+    <style name="FontWeight_5_Bold"><item name="android:fontFamily">@font/noto_sans_kr_bold</item></style>
+    <style name="FontWeight_6_Black"><item name="android:fontFamily">@font/noto_sans_kr_black</item></style>
 
     <!-- Light Text   -->
     <style name="Text_10_Light" parent="FontWeight_2_Light"><item name="android:textSize">10sp</item></style>
