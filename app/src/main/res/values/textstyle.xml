@@ -1,0 +1,2590 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Light Text Style -->
+        <!-- Base Color -->
+        <style name="Text_10_Light.Base_01" parent="Text_10_Light">
+            <item name="android:textColor">@color/Base_01</item>
+        </style>
+
+        <style name="Text_10_Light.Base_02" parent="Text_10_Light">
+            <item name="android:textColor">@color/Base_02</item>
+        </style>
+
+        <style name="Text_10_Light.Base_03" parent="Text_10_Light">
+            <item name="android:textColor">@color/Base_03</item>
+        </style>
+
+        <style name="Text_10_Light.Base_04" parent="Text_10_Light">
+            <item name="android:textColor">@color/Base_04</item>
+        </style>
+
+        <style name="Text_10_Light.Base_05" parent="Text_10_Light">
+            <item name="android:textColor">@color/Base_05</item>
+        </style>
+
+        <style name="Text_10_Light.Base_06" parent="Text_10_Light">
+            <item name="android:textColor">@color/Base_06</item>
+        </style>
+
+        <style name="Text_10_Light.Base_07" parent="Text_10_Light">
+            <item name="android:textColor">@color/Base_07</item>
+        </style>
+
+        <style name="Text_10_Light.Base_08" parent="Text_10_Light">
+            <item name="android:textColor">@color/Base_08</item>
+        </style>
+
+        <style name="Text_10_Light.Base_09" parent="Text_10_Light">
+            <item name="android:textColor">@color/Base_09</item>
+        </style>
+
+        <style name="Text_12_Light.Base_01" parent="Text_12_Light">
+            <item name="android:textColor">@color/Base_01</item>
+        </style>
+
+        <style name="Text_12_Light.Base_02" parent="Text_12_Light">
+            <item name="android:textColor">@color/Base_02</item>
+        </style>
+
+        <style name="Text_12_Light.Base_03" parent="Text_12_Light">
+            <item name="android:textColor">@color/Base_03</item>
+        </style>
+
+        <style name="Text_12_Light.Base_04" parent="Text_12_Light">
+            <item name="android:textColor">@color/Base_04</item>
+        </style>
+
+        <style name="Text_12_Light.Base_05" parent="Text_12_Light">
+            <item name="android:textColor">@color/Base_05</item>
+        </style>
+
+        <style name="Text_12_Light.Base_06" parent="Text_12_Light">
+            <item name="android:textColor">@color/Base_06</item>
+        </style>
+
+        <style name="Text_12_Light.Base_07" parent="Text_12_Light">
+            <item name="android:textColor">@color/Base_07</item>
+        </style>
+
+        <style name="Text_12_Light.Base_08" parent="Text_12_Light">
+            <item name="android:textColor">@color/Base_08</item>
+        </style>
+
+        <style name="Text_12_Light.Base_09" parent="Text_12_Light">
+            <item name="android:textColor">@color/Base_09</item>
+        </style>
+
+        <style name="Text_14_Light.Base_01" parent="Text_14_Light">
+            <item name="android:textColor">@color/Base_01</item>
+        </style>
+
+        <style name="Text_14_Light.Base_02" parent="Text_14_Light">
+            <item name="android:textColor">@color/Base_02</item>
+        </style>
+
+        <style name="Text_14_Light.Base_03" parent="Text_14_Light">
+            <item name="android:textColor">@color/Base_03</item>
+        </style>
+
+        <style name="Text_14_Light.Base_04" parent="Text_14_Light">
+            <item name="android:textColor">@color/Base_04</item>
+        </style>
+
+        <style name="Text_14_Light.Base_05" parent="Text_14_Light">
+            <item name="android:textColor">@color/Base_05</item>
+        </style>
+
+        <style name="Text_14_Light.Base_06" parent="Text_14_Light">
+            <item name="android:textColor">@color/Base_06</item>
+        </style>
+
+        <style name="Text_14_Light.Base_07" parent="Text_14_Light">
+            <item name="android:textColor">@color/Base_07</item>
+        </style>
+
+        <style name="Text_14_Light.Base_08" parent="Text_14_Light">
+            <item name="android:textColor">@color/Base_08</item>
+        </style>
+
+        <style name="Text_14_Light.Base_09" parent="Text_14_Light">
+            <item name="android:textColor">@color/Base_09</item>
+        </style>
+
+        <style name="Text_16_Light.Base_01" parent="Text_16_Light">
+            <item name="android:textColor">@color/Base_01</item>
+        </style>
+
+        <style name="Text_16_Light.Base_02" parent="Text_16_Light">
+            <item name="android:textColor">@color/Base_02</item>
+        </style>
+
+        <style name="Text_16_Light.Base_03" parent="Text_16_Light">
+            <item name="android:textColor">@color/Base_03</item>
+        </style>
+
+        <style name="Text_16_Light.Base_04" parent="Text_16_Light">
+            <item name="android:textColor">@color/Base_04</item>
+        </style>
+
+        <style name="Text_16_Light.Base_05" parent="Text_16_Light">
+            <item name="android:textColor">@color/Base_05</item>
+        </style>
+
+        <style name="Text_16_Light.Base_06" parent="Text_16_Light">
+            <item name="android:textColor">@color/Base_06</item>
+        </style>
+
+        <style name="Text_16_Light.Base_07" parent="Text_16_Light">
+            <item name="android:textColor">@color/Base_07</item>
+        </style>
+
+        <style name="Text_16_Light.Base_08" parent="Text_16_Light">
+            <item name="android:textColor">@color/Base_08</item>
+        </style>
+
+        <style name="Text_16_Light.Base_09" parent="Text_16_Light">
+            <item name="android:textColor">@color/Base_09</item>
+        </style>
+
+        <style name="Text_18_Light.Base_01" parent="Text_18_Light">
+            <item name="android:textColor">@color/Base_01</item>
+        </style>
+
+        <style name="Text_18_Light.Base_02" parent="Text_18_Light">
+            <item name="android:textColor">@color/Base_02</item>
+        </style>
+
+        <style name="Text_18_Light.Base_03" parent="Text_18_Light">
+            <item name="android:textColor">@color/Base_03</item>
+        </style>
+
+        <style name="Text_18_Light.Base_04" parent="Text_18_Light">
+            <item name="android:textColor">@color/Base_04</item>
+        </style>
+
+        <style name="Text_18_Light.Base_05" parent="Text_18_Light">
+            <item name="android:textColor">@color/Base_05</item>
+        </style>
+
+        <style name="Text_18_Light.Base_06" parent="Text_18_Light">
+            <item name="android:textColor">@color/Base_06</item>
+        </style>
+
+        <style name="Text_18_Light.Base_07" parent="Text_18_Light">
+            <item name="android:textColor">@color/Base_07</item>
+        </style>
+
+        <style name="Text_18_Light.Base_08" parent="Text_18_Light">
+            <item name="android:textColor">@color/Base_08</item>
+        </style>
+
+        <style name="Text_18_Light.Base_09" parent="Text_18_Light">
+            <item name="android:textColor">@color/Base_09</item>
+        </style>
+
+        <style name="Text_20_Light.Base_01" parent="Text_20_Light">
+            <item name="android:textColor">@color/Base_01</item>
+        </style>
+
+        <style name="Text_20_Light.Base_02" parent="Text_20_Light">
+            <item name="android:textColor">@color/Base_02</item>
+        </style>
+
+        <style name="Text_20_Light.Base_03" parent="Text_20_Light">
+            <item name="android:textColor">@color/Base_03</item>
+        </style>
+
+        <style name="Text_20_Light.Base_04" parent="Text_20_Light">
+            <item name="android:textColor">@color/Base_04</item>
+        </style>
+
+        <style name="Text_20_Light.Base_05" parent="Text_20_Light">
+            <item name="android:textColor">@color/Base_05</item>
+        </style>
+
+        <style name="Text_20_Light.Base_06" parent="Text_20_Light">
+            <item name="android:textColor">@color/Base_06</item>
+        </style>
+
+        <style name="Text_20_Light.Base_07" parent="Text_20_Light">
+            <item name="android:textColor">@color/Base_07</item>
+        </style>
+
+        <style name="Text_20_Light.Base_08" parent="Text_20_Light">
+            <item name="android:textColor">@color/Base_08</item>
+        </style>
+
+        <style name="Text_20_Light.Base_09" parent="Text_20_Light">
+            <item name="android:textColor">@color/Base_09</item>
+        </style>
+
+        <style name="Text_22_Light.Base_01" parent="Text_22_Light">
+            <item name="android:textColor">@color/Base_01</item>
+        </style>
+
+        <style name="Text_22_Light.Base_02" parent="Text_22_Light">
+            <item name="android:textColor">@color/Base_02</item>
+        </style>
+
+        <style name="Text_22_Light.Base_03" parent="Text_22_Light">
+            <item name="android:textColor">@color/Base_03</item>
+        </style>
+
+        <style name="Text_22_Light.Base_04" parent="Text_22_Light">
+            <item name="android:textColor">@color/Base_04</item>
+        </style>
+
+        <style name="Text_22_Light.Base_05" parent="Text_22_Light">
+            <item name="android:textColor">@color/Base_05</item>
+        </style>
+
+        <style name="Text_22_Light.Base_06" parent="Text_22_Light">
+            <item name="android:textColor">@color/Base_06</item>
+        </style>
+
+        <style name="Text_22_Light.Base_07" parent="Text_22_Light">
+            <item name="android:textColor">@color/Base_07</item>
+        </style>
+
+        <style name="Text_22_Light.Base_08" parent="Text_22_Light">
+            <item name="android:textColor">@color/Base_08</item>
+        </style>
+
+        <style name="Text_22_Light.Base_09" parent="Text_22_Light">
+            <item name="android:textColor">@color/Base_09</item>
+        </style>
+
+        <style name="Text_24_Light.Base_01" parent="Text_24_Light">
+            <item name="android:textColor">@color/Base_01</item>
+        </style>
+
+        <style name="Text_24_Light.Base_02" parent="Text_24_Light">
+            <item name="android:textColor">@color/Base_02</item>
+        </style>
+
+        <style name="Text_24_Light.Base_03" parent="Text_24_Light">
+            <item name="android:textColor">@color/Base_03</item>
+        </style>
+
+        <style name="Text_24_Light.Base_04" parent="Text_24_Light">
+            <item name="android:textColor">@color/Base_04</item>
+        </style>
+
+        <style name="Text_24_Light.Base_05" parent="Text_24_Light">
+            <item name="android:textColor">@color/Base_05</item>
+        </style>
+
+        <style name="Text_24_Light.Base_06" parent="Text_24_Light">
+            <item name="android:textColor">@color/Base_06</item>
+        </style>
+
+        <style name="Text_24_Light.Base_07" parent="Text_24_Light">
+            <item name="android:textColor">@color/Base_07</item>
+        </style>
+
+        <style name="Text_24_Light.Base_08" parent="Text_24_Light">
+            <item name="android:textColor">@color/Base_08</item>
+        </style>
+
+        <style name="Text_24_Light.Base_09" parent="Text_24_Light">
+            <item name="android:textColor">@color/Base_09</item>
+        </style>
+
+        <style name="Text_26_Light.Base_01" parent="Text_26_Light">
+            <item name="android:textColor">@color/Base_01</item>
+        </style>
+
+        <style name="Text_26_Light.Base_02" parent="Text_26_Light">
+            <item name="android:textColor">@color/Base_02</item>
+        </style>
+
+        <style name="Text_26_Light.Base_03" parent="Text_26_Light">
+            <item name="android:textColor">@color/Base_03</item>
+        </style>
+
+        <style name="Text_26_Light.Base_04" parent="Text_26_Light">
+            <item name="android:textColor">@color/Base_04</item>
+        </style>
+
+        <style name="Text_26_Light.Base_05" parent="Text_26_Light">
+            <item name="android:textColor">@color/Base_05</item>
+        </style>
+
+        <style name="Text_26_Light.Base_06" parent="Text_26_Light">
+            <item name="android:textColor">@color/Base_06</item>
+        </style>
+
+        <style name="Text_26_Light.Base_07" parent="Text_26_Light">
+            <item name="android:textColor">@color/Base_07</item>
+        </style>
+
+        <style name="Text_26_Light.Base_08" parent="Text_26_Light">
+            <item name="android:textColor">@color/Base_08</item>
+        </style>
+
+        <style name="Text_26_Light.Base_09" parent="Text_26_Light">
+            <item name="android:textColor">@color/Base_09</item>
+        </style>
+
+        <style name="Text_28_Light.Base_01" parent="Text_28_Light">
+            <item name="android:textColor">@color/Base_01</item>
+        </style>
+
+        <style name="Text_28_Light.Base_02" parent="Text_28_Light">
+            <item name="android:textColor">@color/Base_02</item>
+        </style>
+
+        <style name="Text_28_Light.Base_03" parent="Text_28_Light">
+            <item name="android:textColor">@color/Base_03</item>
+        </style>
+
+        <style name="Text_28_Light.Base_04" parent="Text_28_Light">
+            <item name="android:textColor">@color/Base_04</item>
+        </style>
+
+        <style name="Text_28_Light.Base_05" parent="Text_28_Light">
+            <item name="android:textColor">@color/Base_05</item>
+        </style>
+
+        <style name="Text_28_Light.Base_06" parent="Text_28_Light">
+            <item name="android:textColor">@color/Base_06</item>
+        </style>
+
+        <style name="Text_28_Light.Base_07" parent="Text_28_Light">
+            <item name="android:textColor">@color/Base_07</item>
+        </style>
+
+        <style name="Text_28_Light.Base_08" parent="Text_28_Light">
+            <item name="android:textColor">@color/Base_08</item>
+        </style>
+
+        <style name="Text_28_Light.Base_09" parent="Text_28_Light">
+            <item name="android:textColor">@color/Base_09</item>
+        </style>
+
+        <!-- Primary Color -->
+        <style name="Text_10_Light.Primary_01" parent="Text_10_Light">
+            <item name="android:textColor">@color/Primary_01</item>
+        </style>
+
+        <style name="Text_10_Light.Primary_02" parent="Text_10_Light">
+            <item name="android:textColor">@color/Primary_02</item>
+        </style>
+
+        <style name="Text_10_Light.Primary_03" parent="Text_10_Light">
+            <item name="android:textColor">@color/Primary_03</item>
+        </style>
+
+        <style name="Text_10_Light.Primary_04" parent="Text_10_Light">
+            <item name="android:textColor">@color/Primary_04</item>
+        </style>
+
+        <style name="Text_10_Light.Primary_05" parent="Text_10_Light">
+            <item name="android:textColor">@color/Primary_05</item>
+        </style>
+
+        <style name="Text_10_Light.Primary_06" parent="Text_10_Light">
+            <item name="android:textColor">@color/Primary_06</item>
+        </style>
+
+        <style name="Text_10_Light.Primary_07" parent="Text_10_Light">
+            <item name="android:textColor">@color/Primary_07</item>
+        </style>
+
+        <style name="Text_12_Light.Primary_01" parent="Text_12_Light">
+            <item name="android:textColor">@color/Primary_01</item>
+        </style>
+
+        <style name="Text_12_Light.Primary_02" parent="Text_12_Light">
+            <item name="android:textColor">@color/Primary_02</item>
+        </style>
+
+        <style name="Text_12_Light.Primary_03" parent="Text_12_Light">
+            <item name="android:textColor">@color/Primary_03</item>
+        </style>
+
+        <style name="Text_12_Light.Primary_04" parent="Text_12_Light">
+            <item name="android:textColor">@color/Primary_04</item>
+        </style>
+
+        <style name="Text_12_Light.Primary_05" parent="Text_12_Light">
+            <item name="android:textColor">@color/Primary_05</item>
+        </style>
+
+        <style name="Text_12_Light.Primary_06" parent="Text_12_Light">
+            <item name="android:textColor">@color/Primary_06</item>
+        </style>
+
+        <style name="Text_12_Light.Primary_07" parent="Text_12_Light">
+            <item name="android:textColor">@color/Primary_07</item>
+        </style>
+
+        <style name="Text_14_Light.Primary_01" parent="Text_14_Light">
+            <item name="android:textColor">@color/Primary_01</item>
+        </style>
+
+        <style name="Text_14_Light.Primary_02" parent="Text_14_Light">
+            <item name="android:textColor">@color/Primary_02</item>
+        </style>
+
+        <style name="Text_14_Light.Primary_03" parent="Text_14_Light">
+            <item name="android:textColor">@color/Primary_03</item>
+        </style>
+
+        <style name="Text_14_Light.Primary_04" parent="Text_14_Light">
+            <item name="android:textColor">@color/Primary_04</item>
+        </style>
+
+        <style name="Text_14_Light.Primary_05" parent="Text_14_Light">
+            <item name="android:textColor">@color/Primary_05</item>
+        </style>
+
+        <style name="Text_14_Light.Primary_06" parent="Text_14_Light">
+            <item name="android:textColor">@color/Primary_06</item>
+        </style>
+
+        <style name="Text_14_Light.Primary_07" parent="Text_14_Light">
+            <item name="android:textColor">@color/Primary_07</item>
+        </style>
+
+        <style name="Text_16_Light.Primary_01" parent="Text_16_Light">
+            <item name="android:textColor">@color/Primary_01</item>
+        </style>
+
+        <style name="Text_16_Light.Primary_02" parent="Text_16_Light">
+            <item name="android:textColor">@color/Primary_02</item>
+        </style>
+
+        <style name="Text_16_Light.Primary_03" parent="Text_16_Light">
+            <item name="android:textColor">@color/Primary_03</item>
+        </style>
+
+        <style name="Text_16_Light.Primary_04" parent="Text_16_Light">
+            <item name="android:textColor">@color/Primary_04</item>
+        </style>
+
+        <style name="Text_16_Light.Primary_05" parent="Text_16_Light">
+            <item name="android:textColor">@color/Primary_05</item>
+        </style>
+
+        <style name="Text_16_Light.Primary_06" parent="Text_16_Light">
+            <item name="android:textColor">@color/Primary_06</item>
+        </style>
+
+        <style name="Text_16_Light.Primary_07" parent="Text_16_Light">
+            <item name="android:textColor">@color/Primary_07</item>
+        </style>
+
+        <style name="Text_18_Light.Primary_01" parent="Text_18_Light">
+            <item name="android:textColor">@color/Primary_01</item>
+        </style>
+
+        <style name="Text_18_Light.Primary_02" parent="Text_18_Light">
+            <item name="android:textColor">@color/Primary_02</item>
+        </style>
+
+        <style name="Text_18_Light.Primary_03" parent="Text_18_Light">
+            <item name="android:textColor">@color/Primary_03</item>
+        </style>
+
+        <style name="Text_18_Light.Primary_04" parent="Text_18_Light">
+            <item name="android:textColor">@color/Primary_04</item>
+        </style>
+
+        <style name="Text_18_Light.Primary_05" parent="Text_18_Light">
+            <item name="android:textColor">@color/Primary_05</item>
+        </style>
+
+        <style name="Text_18_Light.Primary_06" parent="Text_18_Light">
+            <item name="android:textColor">@color/Primary_06</item>
+        </style>
+
+        <style name="Text_18_Light.Primary_07" parent="Text_18_Light">
+            <item name="android:textColor">@color/Primary_07</item>
+        </style>
+
+        <style name="Text_20_Light.Primary_01" parent="Text_20_Light">
+            <item name="android:textColor">@color/Primary_01</item>
+        </style>
+
+        <style name="Text_20_Light.Primary_02" parent="Text_20_Light">
+            <item name="android:textColor">@color/Primary_02</item>
+        </style>
+
+        <style name="Text_20_Light.Primary_03" parent="Text_20_Light">
+            <item name="android:textColor">@color/Primary_03</item>
+        </style>
+
+        <style name="Text_20_Light.Primary_04" parent="Text_20_Light">
+            <item name="android:textColor">@color/Primary_04</item>
+        </style>
+
+        <style name="Text_20_Light.Primary_05" parent="Text_20_Light">
+            <item name="android:textColor">@color/Primary_05</item>
+        </style>
+
+        <style name="Text_20_Light.Primary_06" parent="Text_20_Light">
+            <item name="android:textColor">@color/Primary_06</item>
+        </style>
+
+        <style name="Text_20_Light.Primary_07" parent="Text_20_Light">
+            <item name="android:textColor">@color/Primary_07</item>
+        </style>
+
+        <style name="Text_22_Light.Primary_01" parent="Text_22_Light">
+            <item name="android:textColor">@color/Primary_01</item>
+        </style>
+
+        <style name="Text_22_Light.Primary_02" parent="Text_22_Light">
+            <item name="android:textColor">@color/Primary_02</item>
+        </style>
+
+        <style name="Text_22_Light.Primary_03" parent="Text_22_Light">
+            <item name="android:textColor">@color/Primary_03</item>
+        </style>
+
+        <style name="Text_22_Light.Primary_04" parent="Text_22_Light">
+            <item name="android:textColor">@color/Primary_04</item>
+        </style>
+
+        <style name="Text_22_Light.Primary_05" parent="Text_22_Light">
+            <item name="android:textColor">@color/Primary_05</item>
+        </style>
+
+        <style name="Text_22_Light.Primary_06" parent="Text_22_Light">
+            <item name="android:textColor">@color/Primary_06</item>
+        </style>
+
+        <style name="Text_22_Light.Primary_07" parent="Text_22_Light">
+            <item name="android:textColor">@color/Primary_07</item>
+        </style>
+
+        <style name="Text_24_Light.Primary_01" parent="Text_24_Light">
+            <item name="android:textColor">@color/Primary_01</item>
+        </style>
+
+        <style name="Text_24_Light.Primary_02" parent="Text_24_Light">
+            <item name="android:textColor">@color/Primary_02</item>
+        </style>
+
+        <style name="Text_24_Light.Primary_03" parent="Text_24_Light">
+            <item name="android:textColor">@color/Primary_03</item>
+        </style>
+
+        <style name="Text_24_Light.Primary_04" parent="Text_24_Light">
+            <item name="android:textColor">@color/Primary_04</item>
+        </style>
+
+        <style name="Text_24_Light.Primary_05" parent="Text_24_Light">
+            <item name="android:textColor">@color/Primary_05</item>
+        </style>
+
+        <style name="Text_24_Light.Primary_06" parent="Text_24_Light">
+            <item name="android:textColor">@color/Primary_06</item>
+        </style>
+
+        <style name="Text_24_Light.Primary_07" parent="Text_24_Light">
+            <item name="android:textColor">@color/Primary_07</item>
+        </style>
+
+        <style name="Text_26_Light.Primary_01" parent="Text_26_Light">
+            <item name="android:textColor">@color/Primary_01</item>
+        </style>
+
+        <style name="Text_26_Light.Primary_02" parent="Text_26_Light">
+            <item name="android:textColor">@color/Primary_02</item>
+        </style>
+
+        <style name="Text_26_Light.Primary_03" parent="Text_26_Light">
+            <item name="android:textColor">@color/Primary_03</item>
+        </style>
+
+        <style name="Text_26_Light.Primary_04" parent="Text_26_Light">
+            <item name="android:textColor">@color/Primary_04</item>
+        </style>
+
+        <style name="Text_26_Light.Primary_05" parent="Text_26_Light">
+            <item name="android:textColor">@color/Primary_05</item>
+        </style>
+
+        <style name="Text_26_Light.Primary_06" parent="Text_26_Light">
+            <item name="android:textColor">@color/Primary_06</item>
+        </style>
+
+        <style name="Text_26_Light.Primary_07" parent="Text_26_Light">
+            <item name="android:textColor">@color/Primary_07</item>
+        </style>
+
+        <style name="Text_28_Light.Primary_01" parent="Text_28_Light">
+            <item name="android:textColor">@color/Primary_01</item>
+        </style>
+
+        <style name="Text_28_Light.Primary_02" parent="Text_28_Light">
+            <item name="android:textColor">@color/Primary_02</item>
+        </style>
+
+        <style name="Text_28_Light.Primary_03" parent="Text_28_Light">
+            <item name="android:textColor">@color/Primary_03</item>
+        </style>
+
+        <style name="Text_28_Light.Primary_04" parent="Text_28_Light">
+            <item name="android:textColor">@color/Primary_04</item>
+        </style>
+
+        <style name="Text_28_Light.Primary_05" parent="Text_28_Light">
+            <item name="android:textColor">@color/Primary_05</item>
+        </style>
+
+        <style name="Text_28_Light.Primary_06" parent="Text_28_Light">
+            <item name="android:textColor">@color/Primary_06</item>
+        </style>
+
+        <style name="Text_28_Light.Primary_07" parent="Text_28_Light">
+            <item name="android:textColor">@color/Primary_07</item>
+        </style>
+
+
+
+
+    <!-- Regular Text Style -->
+        <!-- Base Color -->
+            <style name="Text_10_Regular.Base_01" parent="Text_10_Regular">
+                <item name="android:textColor">@color/Base_01</item>
+            </style>
+
+            <style name="Text_10_Regular.Base_02" parent="Text_10_Regular">
+                <item name="android:textColor">@color/Base_02</item>
+            </style>
+
+            <style name="Text_10_Regular.Base_03" parent="Text_10_Regular">
+                <item name="android:textColor">@color/Base_03</item>
+            </style>
+
+            <style name="Text_10_Regular.Base_04" parent="Text_10_Regular">
+                <item name="android:textColor">@color/Base_04</item>
+            </style>
+
+            <style name="Text_10_Regular.Base_05" parent="Text_10_Regular">
+                <item name="android:textColor">@color/Base_05</item>
+            </style>
+
+            <style name="Text_10_Regular.Base_06" parent="Text_10_Regular">
+                <item name="android:textColor">@color/Base_06</item>
+            </style>
+
+            <style name="Text_10_Regular.Base_07" parent="Text_10_Regular">
+                <item name="android:textColor">@color/Base_07</item>
+            </style>
+
+            <style name="Text_10_Regular.Base_08" parent="Text_10_Regular">
+                <item name="android:textColor">@color/Base_08</item>
+            </style>
+
+            <style name="Text_10_Regular.Base_09" parent="Text_10_Regular">
+                <item name="android:textColor">@color/Base_09</item>
+            </style>
+
+            <style name="Text_12_Regular.Base_01" parent="Text_12_Regular">
+                <item name="android:textColor">@color/Base_01</item>
+            </style>
+
+            <style name="Text_12_Regular.Base_02" parent="Text_12_Regular">
+                <item name="android:textColor">@color/Base_02</item>
+            </style>
+
+            <style name="Text_12_Regular.Base_03" parent="Text_12_Regular">
+                <item name="android:textColor">@color/Base_03</item>
+            </style>
+
+            <style name="Text_12_Regular.Base_04" parent="Text_12_Regular">
+                <item name="android:textColor">@color/Base_04</item>
+            </style>
+
+            <style name="Text_12_Regular.Base_05" parent="Text_12_Regular">
+                <item name="android:textColor">@color/Base_05</item>
+            </style>
+
+            <style name="Text_12_Regular.Base_06" parent="Text_12_Regular">
+                <item name="android:textColor">@color/Base_06</item>
+            </style>
+
+            <style name="Text_12_Regular.Base_07" parent="Text_12_Regular">
+                <item name="android:textColor">@color/Base_07</item>
+            </style>
+
+            <style name="Text_12_Regular.Base_08" parent="Text_12_Regular">
+                <item name="android:textColor">@color/Base_08</item>
+            </style>
+
+            <style name="Text_12_Regular.Base_09" parent="Text_12_Regular">
+                <item name="android:textColor">@color/Base_09</item>
+            </style>
+
+            <style name="Text_14_Regular.Base_01" parent="Text_14_Regular">
+                <item name="android:textColor">@color/Base_01</item>
+            </style>
+
+            <style name="Text_14_Regular.Base_02" parent="Text_14_Regular">
+                <item name="android:textColor">@color/Base_02</item>
+            </style>
+
+            <style name="Text_14_Regular.Base_03" parent="Text_14_Regular">
+                <item name="android:textColor">@color/Base_03</item>
+            </style>
+
+            <style name="Text_14_Regular.Base_04" parent="Text_14_Regular">
+                <item name="android:textColor">@color/Base_04</item>
+            </style>
+
+            <style name="Text_14_Regular.Base_05" parent="Text_14_Regular">
+                <item name="android:textColor">@color/Base_05</item>
+            </style>
+
+            <style name="Text_14_Regular.Base_06" parent="Text_14_Regular">
+                <item name="android:textColor">@color/Base_06</item>
+            </style>
+
+            <style name="Text_14_Regular.Base_07" parent="Text_14_Regular">
+                <item name="android:textColor">@color/Base_07</item>
+            </style>
+
+            <style name="Text_14_Regular.Base_08" parent="Text_14_Regular">
+                <item name="android:textColor">@color/Base_08</item>
+            </style>
+
+            <style name="Text_14_Regular.Base_09" parent="Text_14_Regular">
+                <item name="android:textColor">@color/Base_09</item>
+            </style>
+
+            <style name="Text_16_Regular.Base_01" parent="Text_16_Regular">
+                <item name="android:textColor">@color/Base_01</item>
+            </style>
+
+            <style name="Text_16_Regular.Base_02" parent="Text_16_Regular">
+                <item name="android:textColor">@color/Base_02</item>
+            </style>
+
+            <style name="Text_16_Regular.Base_03" parent="Text_16_Regular">
+                <item name="android:textColor">@color/Base_03</item>
+            </style>
+
+            <style name="Text_16_Regular.Base_04" parent="Text_16_Regular">
+                <item name="android:textColor">@color/Base_04</item>
+            </style>
+
+            <style name="Text_16_Regular.Base_05" parent="Text_16_Regular">
+                <item name="android:textColor">@color/Base_05</item>
+            </style>
+
+            <style name="Text_16_Regular.Base_06" parent="Text_16_Regular">
+                <item name="android:textColor">@color/Base_06</item>
+            </style>
+
+            <style name="Text_16_Regular.Base_07" parent="Text_16_Regular">
+                <item name="android:textColor">@color/Base_07</item>
+            </style>
+
+            <style name="Text_16_Regular.Base_08" parent="Text_16_Regular">
+                <item name="android:textColor">@color/Base_08</item>
+            </style>
+
+            <style name="Text_16_Regular.Base_09" parent="Text_16_Regular">
+                <item name="android:textColor">@color/Base_09</item>
+            </style>
+
+            <style name="Text_18_Regular.Base_01" parent="Text_18_Regular">
+                <item name="android:textColor">@color/Base_01</item>
+            </style>
+
+            <style name="Text_18_Regular.Base_02" parent="Text_18_Regular">
+                <item name="android:textColor">@color/Base_02</item>
+            </style>
+
+            <style name="Text_18_Regular.Base_03" parent="Text_18_Regular">
+                <item name="android:textColor">@color/Base_03</item>
+            </style>
+
+            <style name="Text_18_Regular.Base_04" parent="Text_18_Regular">
+                <item name="android:textColor">@color/Base_04</item>
+            </style>
+
+            <style name="Text_18_Regular.Base_05" parent="Text_18_Regular">
+                <item name="android:textColor">@color/Base_05</item>
+            </style>
+
+            <style name="Text_18_Regular.Base_06" parent="Text_18_Regular">
+                <item name="android:textColor">@color/Base_06</item>
+            </style>
+
+            <style name="Text_18_Regular.Base_07" parent="Text_18_Regular">
+                <item name="android:textColor">@color/Base_07</item>
+            </style>
+
+            <style name="Text_18_Regular.Base_08" parent="Text_18_Regular">
+                <item name="android:textColor">@color/Base_08</item>
+            </style>
+
+            <style name="Text_18_Regular.Base_09" parent="Text_18_Regular">
+                <item name="android:textColor">@color/Base_09</item>
+            </style>
+
+            <style name="Text_20_Regular.Base_01" parent="Text_20_Regular">
+                <item name="android:textColor">@color/Base_01</item>
+            </style>
+
+            <style name="Text_20_Regular.Base_02" parent="Text_20_Regular">
+                <item name="android:textColor">@color/Base_02</item>
+            </style>
+
+            <style name="Text_20_Regular.Base_03" parent="Text_20_Regular">
+                <item name="android:textColor">@color/Base_03</item>
+            </style>
+
+            <style name="Text_20_Regular.Base_04" parent="Text_20_Regular">
+                <item name="android:textColor">@color/Base_04</item>
+            </style>
+
+            <style name="Text_20_Regular.Base_05" parent="Text_20_Regular">
+                <item name="android:textColor">@color/Base_05</item>
+            </style>
+
+            <style name="Text_20_Regular.Base_06" parent="Text_20_Regular">
+                <item name="android:textColor">@color/Base_06</item>
+            </style>
+
+            <style name="Text_20_Regular.Base_07" parent="Text_20_Regular">
+                <item name="android:textColor">@color/Base_07</item>
+            </style>
+
+            <style name="Text_20_Regular.Base_08" parent="Text_20_Regular">
+                <item name="android:textColor">@color/Base_08</item>
+            </style>
+
+            <style name="Text_20_Regular.Base_09" parent="Text_20_Regular">
+                <item name="android:textColor">@color/Base_09</item>
+            </style>
+
+            <style name="Text_22_Regular.Base_01" parent="Text_22_Regular">
+                <item name="android:textColor">@color/Base_01</item>
+            </style>
+
+            <style name="Text_22_Regular.Base_02" parent="Text_22_Regular">
+                <item name="android:textColor">@color/Base_02</item>
+            </style>
+
+            <style name="Text_22_Regular.Base_03" parent="Text_22_Regular">
+                <item name="android:textColor">@color/Base_03</item>
+            </style>
+
+            <style name="Text_22_Regular.Base_04" parent="Text_22_Regular">
+                <item name="android:textColor">@color/Base_04</item>
+            </style>
+
+            <style name="Text_22_Regular.Base_05" parent="Text_22_Regular">
+                <item name="android:textColor">@color/Base_05</item>
+            </style>
+
+            <style name="Text_22_Regular.Base_06" parent="Text_22_Regular">
+                <item name="android:textColor">@color/Base_06</item>
+            </style>
+
+            <style name="Text_22_Regular.Base_07" parent="Text_22_Regular">
+                <item name="android:textColor">@color/Base_07</item>
+            </style>
+
+            <style name="Text_22_Regular.Base_08" parent="Text_22_Regular">
+                <item name="android:textColor">@color/Base_08</item>
+            </style>
+
+            <style name="Text_22_Regular.Base_09" parent="Text_22_Regular">
+                <item name="android:textColor">@color/Base_09</item>
+            </style>
+
+            <style name="Text_24_Regular.Base_01" parent="Text_24_Regular">
+                <item name="android:textColor">@color/Base_01</item>
+            </style>
+
+            <style name="Text_24_Regular.Base_02" parent="Text_24_Regular">
+                <item name="android:textColor">@color/Base_02</item>
+            </style>
+
+            <style name="Text_24_Regular.Base_03" parent="Text_24_Regular">
+                <item name="android:textColor">@color/Base_03</item>
+            </style>
+
+            <style name="Text_24_Regular.Base_04" parent="Text_24_Regular">
+                <item name="android:textColor">@color/Base_04</item>
+            </style>
+
+            <style name="Text_24_Regular.Base_05" parent="Text_24_Regular">
+                <item name="android:textColor">@color/Base_05</item>
+            </style>
+
+            <style name="Text_24_Regular.Base_06" parent="Text_24_Regular">
+                <item name="android:textColor">@color/Base_06</item>
+            </style>
+
+            <style name="Text_24_Regular.Base_07" parent="Text_24_Regular">
+                <item name="android:textColor">@color/Base_07</item>
+            </style>
+
+            <style name="Text_24_Regular.Base_08" parent="Text_24_Regular">
+                <item name="android:textColor">@color/Base_08</item>
+            </style>
+
+            <style name="Text_24_Regular.Base_09" parent="Text_24_Regular">
+                <item name="android:textColor">@color/Base_09</item>
+            </style>
+
+            <style name="Text_26_Regular.Base_01" parent="Text_26_Regular">
+                <item name="android:textColor">@color/Base_01</item>
+            </style>
+
+            <style name="Text_26_Regular.Base_02" parent="Text_26_Regular">
+                <item name="android:textColor">@color/Base_02</item>
+            </style>
+
+            <style name="Text_26_Regular.Base_03" parent="Text_26_Regular">
+                <item name="android:textColor">@color/Base_03</item>
+            </style>
+
+            <style name="Text_26_Regular.Base_04" parent="Text_26_Regular">
+                <item name="android:textColor">@color/Base_04</item>
+            </style>
+
+            <style name="Text_26_Regular.Base_05" parent="Text_26_Regular">
+                <item name="android:textColor">@color/Base_05</item>
+            </style>
+
+            <style name="Text_26_Regular.Base_06" parent="Text_26_Regular">
+                <item name="android:textColor">@color/Base_06</item>
+            </style>
+
+            <style name="Text_26_Regular.Base_07" parent="Text_26_Regular">
+                <item name="android:textColor">@color/Base_07</item>
+            </style>
+
+            <style name="Text_26_Regular.Base_08" parent="Text_26_Regular">
+                <item name="android:textColor">@color/Base_08</item>
+            </style>
+
+            <style name="Text_26_Regular.Base_09" parent="Text_26_Regular">
+                <item name="android:textColor">@color/Base_09</item>
+            </style>
+
+            <style name="Text_28_Regular.Base_01" parent="Text_28_Regular">
+                <item name="android:textColor">@color/Base_01</item>
+            </style>
+
+            <style name="Text_28_Regular.Base_02" parent="Text_28_Regular">
+                <item name="android:textColor">@color/Base_02</item>
+            </style>
+
+            <style name="Text_28_Regular.Base_03" parent="Text_28_Regular">
+                <item name="android:textColor">@color/Base_03</item>
+            </style>
+
+            <style name="Text_28_Regular.Base_04" parent="Text_28_Regular">
+                <item name="android:textColor">@color/Base_04</item>
+            </style>
+
+            <style name="Text_28_Regular.Base_05" parent="Text_28_Regular">
+                <item name="android:textColor">@color/Base_05</item>
+            </style>
+
+            <style name="Text_28_Regular.Base_06" parent="Text_28_Regular">
+                <item name="android:textColor">@color/Base_06</item>
+            </style>
+
+            <style name="Text_28_Regular.Base_07" parent="Text_28_Regular">
+                <item name="android:textColor">@color/Base_07</item>
+            </style>
+
+            <style name="Text_28_Regular.Base_08" parent="Text_28_Regular">
+                <item name="android:textColor">@color/Base_08</item>
+            </style>
+
+            <style name="Text_28_Regular.Base_09" parent="Text_28_Regular">
+                <item name="android:textColor">@color/Base_09</item>
+            </style>
+
+        <!-- Primary Color -->
+            <style name="Text_10_Regular.Primary_01" parent="Text_10_Regular">
+                <item name="android:textColor">@color/Primary_01</item>
+            </style>
+
+            <style name="Text_10_Regular.Primary_02" parent="Text_10_Regular">
+                <item name="android:textColor">@color/Primary_02</item>
+            </style>
+
+            <style name="Text_10_Regular.Primary_03" parent="Text_10_Regular">
+                <item name="android:textColor">@color/Primary_03</item>
+            </style>
+
+            <style name="Text_10_Regular.Primary_04" parent="Text_10_Regular">
+                <item name="android:textColor">@color/Primary_04</item>
+            </style>
+
+            <style name="Text_10_Regular.Primary_05" parent="Text_10_Regular">
+                <item name="android:textColor">@color/Primary_05</item>
+            </style>
+
+            <style name="Text_10_Regular.Primary_06" parent="Text_10_Regular">
+                <item name="android:textColor">@color/Primary_06</item>
+            </style>
+
+            <style name="Text_10_Regular.Primary_07" parent="Text_10_Regular">
+                <item name="android:textColor">@color/Primary_07</item>
+            </style>
+
+            <style name="Text_12_Regular.Primary_01" parent="Text_12_Regular">
+                <item name="android:textColor">@color/Primary_01</item>
+            </style>
+
+            <style name="Text_12_Regular.Primary_02" parent="Text_12_Regular">
+                <item name="android:textColor">@color/Primary_02</item>
+            </style>
+
+            <style name="Text_12_Regular.Primary_03" parent="Text_12_Regular">
+                <item name="android:textColor">@color/Primary_03</item>
+            </style>
+
+            <style name="Text_12_Regular.Primary_04" parent="Text_12_Regular">
+                <item name="android:textColor">@color/Primary_04</item>
+            </style>
+
+            <style name="Text_12_Regular.Primary_05" parent="Text_12_Regular">
+                <item name="android:textColor">@color/Primary_05</item>
+            </style>
+
+            <style name="Text_12_Regular.Primary_06" parent="Text_12_Regular">
+                <item name="android:textColor">@color/Primary_06</item>
+            </style>
+
+            <style name="Text_12_Regular.Primary_07" parent="Text_12_Regular">
+                <item name="android:textColor">@color/Primary_07</item>
+            </style>
+
+            <style name="Text_14_Regular.Primary_01" parent="Text_14_Regular">
+                <item name="android:textColor">@color/Primary_01</item>
+            </style>
+
+            <style name="Text_14_Regular.Primary_02" parent="Text_14_Regular">
+                <item name="android:textColor">@color/Primary_02</item>
+            </style>
+
+            <style name="Text_14_Regular.Primary_03" parent="Text_14_Regular">
+                <item name="android:textColor">@color/Primary_03</item>
+            </style>
+
+            <style name="Text_14_Regular.Primary_04" parent="Text_14_Regular">
+                <item name="android:textColor">@color/Primary_04</item>
+            </style>
+
+            <style name="Text_14_Regular.Primary_05" parent="Text_14_Regular">
+                <item name="android:textColor">@color/Primary_05</item>
+            </style>
+
+            <style name="Text_14_Regular.Primary_06" parent="Text_14_Regular">
+                <item name="android:textColor">@color/Primary_06</item>
+            </style>
+
+            <style name="Text_14_Regular.Primary_07" parent="Text_14_Regular">
+                <item name="android:textColor">@color/Primary_07</item>
+            </style>
+
+            <style name="Text_16_Regular.Primary_01" parent="Text_16_Regular">
+                <item name="android:textColor">@color/Primary_01</item>
+            </style>
+
+            <style name="Text_16_Regular.Primary_02" parent="Text_16_Regular">
+                <item name="android:textColor">@color/Primary_02</item>
+            </style>
+
+            <style name="Text_16_Regular.Primary_03" parent="Text_16_Regular">
+                <item name="android:textColor">@color/Primary_03</item>
+            </style>
+
+            <style name="Text_16_Regular.Primary_04" parent="Text_16_Regular">
+                <item name="android:textColor">@color/Primary_04</item>
+            </style>
+
+            <style name="Text_16_Regular.Primary_05" parent="Text_16_Regular">
+                <item name="android:textColor">@color/Primary_05</item>
+            </style>
+
+            <style name="Text_16_Regular.Primary_06" parent="Text_16_Regular">
+                <item name="android:textColor">@color/Primary_06</item>
+            </style>
+
+            <style name="Text_16_Regular.Primary_07" parent="Text_16_Regular">
+                <item name="android:textColor">@color/Primary_07</item>
+            </style>
+
+            <style name="Text_18_Regular.Primary_01" parent="Text_18_Regular">
+                <item name="android:textColor">@color/Primary_01</item>
+            </style>
+
+            <style name="Text_18_Regular.Primary_02" parent="Text_18_Regular">
+                <item name="android:textColor">@color/Primary_02</item>
+            </style>
+
+            <style name="Text_18_Regular.Primary_03" parent="Text_18_Regular">
+                <item name="android:textColor">@color/Primary_03</item>
+            </style>
+
+            <style name="Text_18_Regular.Primary_04" parent="Text_18_Regular">
+                <item name="android:textColor">@color/Primary_04</item>
+            </style>
+
+            <style name="Text_18_Regular.Primary_05" parent="Text_18_Regular">
+                <item name="android:textColor">@color/Primary_05</item>
+            </style>
+
+            <style name="Text_18_Regular.Primary_06" parent="Text_18_Regular">
+                <item name="android:textColor">@color/Primary_06</item>
+            </style>
+
+            <style name="Text_18_Regular.Primary_07" parent="Text_18_Regular">
+                <item name="android:textColor">@color/Primary_07</item>
+            </style>
+
+            <style name="Text_20_Regular.Primary_01" parent="Text_20_Regular">
+                <item name="android:textColor">@color/Primary_01</item>
+            </style>
+
+            <style name="Text_20_Regular.Primary_02" parent="Text_20_Regular">
+                <item name="android:textColor">@color/Primary_02</item>
+            </style>
+
+            <style name="Text_20_Regular.Primary_03" parent="Text_20_Regular">
+                <item name="android:textColor">@color/Primary_03</item>
+            </style>
+
+            <style name="Text_20_Regular.Primary_04" parent="Text_20_Regular">
+                <item name="android:textColor">@color/Primary_04</item>
+            </style>
+
+            <style name="Text_20_Regular.Primary_05" parent="Text_20_Regular">
+                <item name="android:textColor">@color/Primary_05</item>
+            </style>
+
+            <style name="Text_20_Regular.Primary_06" parent="Text_20_Regular">
+                <item name="android:textColor">@color/Primary_06</item>
+            </style>
+
+            <style name="Text_20_Regular.Primary_07" parent="Text_20_Regular">
+                <item name="android:textColor">@color/Primary_07</item>
+            </style>
+
+            <style name="Text_22_Regular.Primary_01" parent="Text_22_Regular">
+                <item name="android:textColor">@color/Primary_01</item>
+            </style>
+
+            <style name="Text_22_Regular.Primary_02" parent="Text_22_Regular">
+                <item name="android:textColor">@color/Primary_02</item>
+            </style>
+
+            <style name="Text_22_Regular.Primary_03" parent="Text_22_Regular">
+                <item name="android:textColor">@color/Primary_03</item>
+            </style>
+
+            <style name="Text_22_Regular.Primary_04" parent="Text_22_Regular">
+                <item name="android:textColor">@color/Primary_04</item>
+            </style>
+
+            <style name="Text_22_Regular.Primary_05" parent="Text_22_Regular">
+                <item name="android:textColor">@color/Primary_05</item>
+            </style>
+
+            <style name="Text_22_Regular.Primary_06" parent="Text_22_Regular">
+                <item name="android:textColor">@color/Primary_06</item>
+            </style>
+
+            <style name="Text_22_Regular.Primary_07" parent="Text_22_Regular">
+                <item name="android:textColor">@color/Primary_07</item>
+            </style>
+
+            <style name="Text_24_Regular.Primary_01" parent="Text_24_Regular">
+                <item name="android:textColor">@color/Primary_01</item>
+            </style>
+
+            <style name="Text_24_Regular.Primary_02" parent="Text_24_Regular">
+                <item name="android:textColor">@color/Primary_02</item>
+            </style>
+
+            <style name="Text_24_Regular.Primary_03" parent="Text_24_Regular">
+                <item name="android:textColor">@color/Primary_03</item>
+            </style>
+
+            <style name="Text_24_Regular.Primary_04" parent="Text_24_Regular">
+                <item name="android:textColor">@color/Primary_04</item>
+            </style>
+
+            <style name="Text_24_Regular.Primary_05" parent="Text_24_Regular">
+                <item name="android:textColor">@color/Primary_05</item>
+            </style>
+
+            <style name="Text_24_Regular.Primary_06" parent="Text_24_Regular">
+                <item name="android:textColor">@color/Primary_06</item>
+            </style>
+
+            <style name="Text_24_Regular.Primary_07" parent="Text_24_Regular">
+                <item name="android:textColor">@color/Primary_07</item>
+            </style>
+
+            <style name="Text_26_Regular.Primary_01" parent="Text_26_Regular">
+                <item name="android:textColor">@color/Primary_01</item>
+            </style>
+
+            <style name="Text_26_Regular.Primary_02" parent="Text_26_Regular">
+                <item name="android:textColor">@color/Primary_02</item>
+            </style>
+
+            <style name="Text_26_Regular.Primary_03" parent="Text_26_Regular">
+                <item name="android:textColor">@color/Primary_03</item>
+            </style>
+
+            <style name="Text_26_Regular.Primary_04" parent="Text_26_Regular">
+                <item name="android:textColor">@color/Primary_04</item>
+            </style>
+
+            <style name="Text_26_Regular.Primary_05" parent="Text_26_Regular">
+                <item name="android:textColor">@color/Primary_05</item>
+            </style>
+
+            <style name="Text_26_Regular.Primary_06" parent="Text_26_Regular">
+                <item name="android:textColor">@color/Primary_06</item>
+            </style>
+
+            <style name="Text_26_Regular.Primary_07" parent="Text_26_Regular">
+                <item name="android:textColor">@color/Primary_07</item>
+            </style>
+
+            <style name="Text_28_Regular.Primary_01" parent="Text_28_Regular">
+                <item name="android:textColor">@color/Primary_01</item>
+            </style>
+
+            <style name="Text_28_Regular.Primary_02" parent="Text_28_Regular">
+                <item name="android:textColor">@color/Primary_02</item>
+            </style>
+
+            <style name="Text_28_Regular.Primary_03" parent="Text_28_Regular">
+                <item name="android:textColor">@color/Primary_03</item>
+            </style>
+
+            <style name="Text_28_Regular.Primary_04" parent="Text_28_Regular">
+                <item name="android:textColor">@color/Primary_04</item>
+            </style>
+
+            <style name="Text_28_Regular.Primary_05" parent="Text_28_Regular">
+                <item name="android:textColor">@color/Primary_05</item>
+            </style>
+
+            <style name="Text_28_Regular.Primary_06" parent="Text_28_Regular">
+                <item name="android:textColor">@color/Primary_06</item>
+            </style>
+
+            <style name="Text_28_Regular.Primary_07" parent="Text_28_Regular">
+                <item name="android:textColor">@color/Primary_07</item>
+            </style>
+
+
+
+
+
+
+    <!-- Medium Text Style -->
+        <!-- Base Color -->
+            <style name="Text_10_Medium.Base_01" parent="Text_10_Medium">
+                <item name="android:textColor">@color/Base_01</item>
+            </style>
+
+            <style name="Text_10_Medium.Base_02" parent="Text_10_Medium">
+                <item name="android:textColor">@color/Base_02</item>
+            </style>
+
+            <style name="Text_10_Medium.Base_03" parent="Text_10_Medium">
+                <item name="android:textColor">@color/Base_03</item>
+            </style>
+
+            <style name="Text_10_Medium.Base_04" parent="Text_10_Medium">
+                <item name="android:textColor">@color/Base_04</item>
+            </style>
+
+            <style name="Text_10_Medium.Base_05" parent="Text_10_Medium">
+                <item name="android:textColor">@color/Base_05</item>
+            </style>
+
+            <style name="Text_10_Medium.Base_06" parent="Text_10_Medium">
+                <item name="android:textColor">@color/Base_06</item>
+            </style>
+
+            <style name="Text_10_Medium.Base_07" parent="Text_10_Medium">
+                <item name="android:textColor">@color/Base_07</item>
+            </style>
+
+            <style name="Text_10_Medium.Base_08" parent="Text_10_Medium">
+                <item name="android:textColor">@color/Base_08</item>
+            </style>
+
+            <style name="Text_10_Medium.Base_09" parent="Text_10_Medium">
+                <item name="android:textColor">@color/Base_09</item>
+            </style>
+
+            <style name="Text_12_Medium.Base_01" parent="Text_12_Medium">
+                <item name="android:textColor">@color/Base_01</item>
+            </style>
+
+            <style name="Text_12_Medium.Base_02" parent="Text_12_Medium">
+                <item name="android:textColor">@color/Base_02</item>
+            </style>
+
+            <style name="Text_12_Medium.Base_03" parent="Text_12_Medium">
+                <item name="android:textColor">@color/Base_03</item>
+            </style>
+
+            <style name="Text_12_Medium.Base_04" parent="Text_12_Medium">
+                <item name="android:textColor">@color/Base_04</item>
+            </style>
+
+            <style name="Text_12_Medium.Base_05" parent="Text_12_Medium">
+                <item name="android:textColor">@color/Base_05</item>
+            </style>
+
+            <style name="Text_12_Medium.Base_06" parent="Text_12_Medium">
+                <item name="android:textColor">@color/Base_06</item>
+            </style>
+
+            <style name="Text_12_Medium.Base_07" parent="Text_12_Medium">
+                <item name="android:textColor">@color/Base_07</item>
+            </style>
+
+            <style name="Text_12_Medium.Base_08" parent="Text_12_Medium">
+                <item name="android:textColor">@color/Base_08</item>
+            </style>
+
+            <style name="Text_12_Medium.Base_09" parent="Text_12_Medium">
+                <item name="android:textColor">@color/Base_09</item>
+            </style>
+
+            <style name="Text_14_Medium.Base_01" parent="Text_14_Medium">
+                <item name="android:textColor">@color/Base_01</item>
+            </style>
+
+            <style name="Text_14_Medium.Base_02" parent="Text_14_Medium">
+                <item name="android:textColor">@color/Base_02</item>
+            </style>
+
+            <style name="Text_14_Medium.Base_03" parent="Text_14_Medium">
+                <item name="android:textColor">@color/Base_03</item>
+            </style>
+
+            <style name="Text_14_Medium.Base_04" parent="Text_14_Medium">
+                <item name="android:textColor">@color/Base_04</item>
+            </style>
+
+            <style name="Text_14_Medium.Base_05" parent="Text_14_Medium">
+                <item name="android:textColor">@color/Base_05</item>
+            </style>
+
+            <style name="Text_14_Medium.Base_06" parent="Text_14_Medium">
+                <item name="android:textColor">@color/Base_06</item>
+            </style>
+
+            <style name="Text_14_Medium.Base_07" parent="Text_14_Medium">
+                <item name="android:textColor">@color/Base_07</item>
+            </style>
+
+            <style name="Text_14_Medium.Base_08" parent="Text_14_Medium">
+                <item name="android:textColor">@color/Base_08</item>
+            </style>
+
+            <style name="Text_14_Medium.Base_09" parent="Text_14_Medium">
+                <item name="android:textColor">@color/Base_09</item>
+            </style>
+
+            <style name="Text_16_Medium.Base_01" parent="Text_16_Medium">
+                <item name="android:textColor">@color/Base_01</item>
+            </style>
+
+            <style name="Text_16_Medium.Base_02" parent="Text_16_Medium">
+                <item name="android:textColor">@color/Base_02</item>
+            </style>
+
+            <style name="Text_16_Medium.Base_03" parent="Text_16_Medium">
+                <item name="android:textColor">@color/Base_03</item>
+            </style>
+
+            <style name="Text_16_Medium.Base_04" parent="Text_16_Medium">
+                <item name="android:textColor">@color/Base_04</item>
+            </style>
+
+            <style name="Text_16_Medium.Base_05" parent="Text_16_Medium">
+                <item name="android:textColor">@color/Base_05</item>
+            </style>
+
+            <style name="Text_16_Medium.Base_06" parent="Text_16_Medium">
+                <item name="android:textColor">@color/Base_06</item>
+            </style>
+
+            <style name="Text_16_Medium.Base_07" parent="Text_16_Medium">
+                <item name="android:textColor">@color/Base_07</item>
+            </style>
+
+            <style name="Text_16_Medium.Base_08" parent="Text_16_Medium">
+                <item name="android:textColor">@color/Base_08</item>
+            </style>
+
+            <style name="Text_16_Medium.Base_09" parent="Text_16_Medium">
+                <item name="android:textColor">@color/Base_09</item>
+            </style>
+
+            <style name="Text_18_Medium.Base_01" parent="Text_18_Medium">
+                <item name="android:textColor">@color/Base_01</item>
+            </style>
+
+            <style name="Text_18_Medium.Base_02" parent="Text_18_Medium">
+                <item name="android:textColor">@color/Base_02</item>
+            </style>
+
+            <style name="Text_18_Medium.Base_03" parent="Text_18_Medium">
+                <item name="android:textColor">@color/Base_03</item>
+            </style>
+
+            <style name="Text_18_Medium.Base_04" parent="Text_18_Medium">
+                <item name="android:textColor">@color/Base_04</item>
+            </style>
+
+            <style name="Text_18_Medium.Base_05" parent="Text_18_Medium">
+                <item name="android:textColor">@color/Base_05</item>
+            </style>
+
+            <style name="Text_18_Medium.Base_06" parent="Text_18_Medium">
+                <item name="android:textColor">@color/Base_06</item>
+            </style>
+
+            <style name="Text_18_Medium.Base_07" parent="Text_18_Medium">
+                <item name="android:textColor">@color/Base_07</item>
+            </style>
+
+            <style name="Text_18_Medium.Base_08" parent="Text_18_Medium">
+                <item name="android:textColor">@color/Base_08</item>
+            </style>
+
+            <style name="Text_18_Medium.Base_09" parent="Text_18_Medium">
+                <item name="android:textColor">@color/Base_09</item>
+            </style>
+
+            <style name="Text_20_Medium.Base_01" parent="Text_20_Medium">
+                <item name="android:textColor">@color/Base_01</item>
+            </style>
+
+            <style name="Text_20_Medium.Base_02" parent="Text_20_Medium">
+                <item name="android:textColor">@color/Base_02</item>
+            </style>
+
+            <style name="Text_20_Medium.Base_03" parent="Text_20_Medium">
+                <item name="android:textColor">@color/Base_03</item>
+            </style>
+
+            <style name="Text_20_Medium.Base_04" parent="Text_20_Medium">
+                <item name="android:textColor">@color/Base_04</item>
+            </style>
+
+            <style name="Text_20_Medium.Base_05" parent="Text_20_Medium">
+                <item name="android:textColor">@color/Base_05</item>
+            </style>
+
+            <style name="Text_20_Medium.Base_06" parent="Text_20_Medium">
+                <item name="android:textColor">@color/Base_06</item>
+            </style>
+
+            <style name="Text_20_Medium.Base_07" parent="Text_20_Medium">
+                <item name="android:textColor">@color/Base_07</item>
+            </style>
+
+            <style name="Text_20_Medium.Base_08" parent="Text_20_Medium">
+                <item name="android:textColor">@color/Base_08</item>
+            </style>
+
+            <style name="Text_20_Medium.Base_09" parent="Text_20_Medium">
+                <item name="android:textColor">@color/Base_09</item>
+            </style>
+
+            <style name="Text_22_Medium.Base_01" parent="Text_22_Medium">
+                <item name="android:textColor">@color/Base_01</item>
+            </style>
+
+            <style name="Text_22_Medium.Base_02" parent="Text_22_Medium">
+                <item name="android:textColor">@color/Base_02</item>
+            </style>
+
+            <style name="Text_22_Medium.Base_03" parent="Text_22_Medium">
+                <item name="android:textColor">@color/Base_03</item>
+            </style>
+
+            <style name="Text_22_Medium.Base_04" parent="Text_22_Medium">
+                <item name="android:textColor">@color/Base_04</item>
+            </style>
+
+            <style name="Text_22_Medium.Base_05" parent="Text_22_Medium">
+                <item name="android:textColor">@color/Base_05</item>
+            </style>
+
+            <style name="Text_22_Medium.Base_06" parent="Text_22_Medium">
+                <item name="android:textColor">@color/Base_06</item>
+            </style>
+
+            <style name="Text_22_Medium.Base_07" parent="Text_22_Medium">
+                <item name="android:textColor">@color/Base_07</item>
+            </style>
+
+            <style name="Text_22_Medium.Base_08" parent="Text_22_Medium">
+                <item name="android:textColor">@color/Base_08</item>
+            </style>
+
+            <style name="Text_22_Medium.Base_09" parent="Text_22_Medium">
+                <item name="android:textColor">@color/Base_09</item>
+            </style>
+
+            <style name="Text_24_Medium.Base_01" parent="Text_24_Medium">
+                <item name="android:textColor">@color/Base_01</item>
+            </style>
+
+            <style name="Text_24_Medium.Base_02" parent="Text_24_Medium">
+                <item name="android:textColor">@color/Base_02</item>
+            </style>
+
+            <style name="Text_24_Medium.Base_03" parent="Text_24_Medium">
+                <item name="android:textColor">@color/Base_03</item>
+            </style>
+
+            <style name="Text_24_Medium.Base_04" parent="Text_24_Medium">
+                <item name="android:textColor">@color/Base_04</item>
+            </style>
+
+            <style name="Text_24_Medium.Base_05" parent="Text_24_Medium">
+                <item name="android:textColor">@color/Base_05</item>
+            </style>
+
+            <style name="Text_24_Medium.Base_06" parent="Text_24_Medium">
+                <item name="android:textColor">@color/Base_06</item>
+            </style>
+
+            <style name="Text_24_Medium.Base_07" parent="Text_24_Medium">
+                <item name="android:textColor">@color/Base_07</item>
+            </style>
+
+            <style name="Text_24_Medium.Base_08" parent="Text_24_Medium">
+                <item name="android:textColor">@color/Base_08</item>
+            </style>
+
+            <style name="Text_24_Medium.Base_09" parent="Text_24_Medium">
+                <item name="android:textColor">@color/Base_09</item>
+            </style>
+
+            <style name="Text_26_Medium.Base_01" parent="Text_26_Medium">
+                <item name="android:textColor">@color/Base_01</item>
+            </style>
+
+            <style name="Text_26_Medium.Base_02" parent="Text_26_Medium">
+                <item name="android:textColor">@color/Base_02</item>
+            </style>
+
+            <style name="Text_26_Medium.Base_03" parent="Text_26_Medium">
+                <item name="android:textColor">@color/Base_03</item>
+            </style>
+
+            <style name="Text_26_Medium.Base_04" parent="Text_26_Medium">
+                <item name="android:textColor">@color/Base_04</item>
+            </style>
+
+            <style name="Text_26_Medium.Base_05" parent="Text_26_Medium">
+                <item name="android:textColor">@color/Base_05</item>
+            </style>
+
+            <style name="Text_26_Medium.Base_06" parent="Text_26_Medium">
+                <item name="android:textColor">@color/Base_06</item>
+            </style>
+
+            <style name="Text_26_Medium.Base_07" parent="Text_26_Medium">
+                <item name="android:textColor">@color/Base_07</item>
+            </style>
+
+            <style name="Text_26_Medium.Base_08" parent="Text_26_Medium">
+                <item name="android:textColor">@color/Base_08</item>
+            </style>
+
+            <style name="Text_26_Medium.Base_09" parent="Text_26_Medium">
+                <item name="android:textColor">@color/Base_09</item>
+            </style>
+
+            <style name="Text_28_Medium.Base_01" parent="Text_28_Medium">
+                <item name="android:textColor">@color/Base_01</item>
+            </style>
+
+            <style name="Text_28_Medium.Base_02" parent="Text_28_Medium">
+                <item name="android:textColor">@color/Base_02</item>
+            </style>
+
+            <style name="Text_28_Medium.Base_03" parent="Text_28_Medium">
+                <item name="android:textColor">@color/Base_03</item>
+            </style>
+
+            <style name="Text_28_Medium.Base_04" parent="Text_28_Medium">
+                <item name="android:textColor">@color/Base_04</item>
+            </style>
+
+            <style name="Text_28_Medium.Base_05" parent="Text_28_Medium">
+                <item name="android:textColor">@color/Base_05</item>
+            </style>
+
+            <style name="Text_28_Medium.Base_06" parent="Text_28_Medium">
+                <item name="android:textColor">@color/Base_06</item>
+            </style>
+
+            <style name="Text_28_Medium.Base_07" parent="Text_28_Medium">
+                <item name="android:textColor">@color/Base_07</item>
+            </style>
+
+            <style name="Text_28_Medium.Base_08" parent="Text_28_Medium">
+                <item name="android:textColor">@color/Base_08</item>
+            </style>
+
+            <style name="Text_28_Medium.Base_09" parent="Text_28_Medium">
+                <item name="android:textColor">@color/Base_09</item>
+            </style>
+
+        <!-- Primary Color -->
+            <style name="Text_10_Medium.Primary_01" parent="Text_10_Medium">
+                <item name="android:textColor">@color/Primary_01</item>
+            </style>
+
+            <style name="Text_10_Medium.Primary_02" parent="Text_10_Medium">
+                <item name="android:textColor">@color/Primary_02</item>
+            </style>
+
+            <style name="Text_10_Medium.Primary_03" parent="Text_10_Medium">
+                <item name="android:textColor">@color/Primary_03</item>
+            </style>
+
+            <style name="Text_10_Medium.Primary_04" parent="Text_10_Medium">
+                <item name="android:textColor">@color/Primary_04</item>
+            </style>
+
+            <style name="Text_10_Medium.Primary_05" parent="Text_10_Medium">
+                <item name="android:textColor">@color/Primary_05</item>
+            </style>
+
+            <style name="Text_10_Medium.Primary_06" parent="Text_10_Medium">
+                <item name="android:textColor">@color/Primary_06</item>
+            </style>
+
+            <style name="Text_10_Medium.Primary_07" parent="Text_10_Medium">
+                <item name="android:textColor">@color/Primary_07</item>
+            </style>
+
+            <style name="Text_12_Medium.Primary_01" parent="Text_12_Medium">
+                <item name="android:textColor">@color/Primary_01</item>
+            </style>
+
+            <style name="Text_12_Medium.Primary_02" parent="Text_12_Medium">
+                <item name="android:textColor">@color/Primary_02</item>
+            </style>
+
+            <style name="Text_12_Medium.Primary_03" parent="Text_12_Medium">
+                <item name="android:textColor">@color/Primary_03</item>
+            </style>
+
+            <style name="Text_12_Medium.Primary_04" parent="Text_12_Medium">
+                <item name="android:textColor">@color/Primary_04</item>
+            </style>
+
+            <style name="Text_12_Medium.Primary_05" parent="Text_12_Medium">
+                <item name="android:textColor">@color/Primary_05</item>
+            </style>
+
+            <style name="Text_12_Medium.Primary_06" parent="Text_12_Medium">
+                <item name="android:textColor">@color/Primary_06</item>
+            </style>
+
+            <style name="Text_12_Medium.Primary_07" parent="Text_12_Medium">
+                <item name="android:textColor">@color/Primary_07</item>
+            </style>
+
+            <style name="Text_14_Medium.Primary_01" parent="Text_14_Medium">
+                <item name="android:textColor">@color/Primary_01</item>
+            </style>
+
+            <style name="Text_14_Medium.Primary_02" parent="Text_14_Medium">
+                <item name="android:textColor">@color/Primary_02</item>
+            </style>
+
+            <style name="Text_14_Medium.Primary_03" parent="Text_14_Medium">
+                <item name="android:textColor">@color/Primary_03</item>
+            </style>
+
+            <style name="Text_14_Medium.Primary_04" parent="Text_14_Medium">
+                <item name="android:textColor">@color/Primary_04</item>
+            </style>
+
+            <style name="Text_14_Medium.Primary_05" parent="Text_14_Medium">
+                <item name="android:textColor">@color/Primary_05</item>
+            </style>
+
+            <style name="Text_14_Medium.Primary_06" parent="Text_14_Medium">
+                <item name="android:textColor">@color/Primary_06</item>
+            </style>
+
+            <style name="Text_14_Medium.Primary_07" parent="Text_14_Medium">
+                <item name="android:textColor">@color/Primary_07</item>
+            </style>
+
+            <style name="Text_16_Medium.Primary_01" parent="Text_16_Medium">
+                <item name="android:textColor">@color/Primary_01</item>
+            </style>
+
+            <style name="Text_16_Medium.Primary_02" parent="Text_16_Medium">
+                <item name="android:textColor">@color/Primary_02</item>
+            </style>
+
+            <style name="Text_16_Medium.Primary_03" parent="Text_16_Medium">
+                <item name="android:textColor">@color/Primary_03</item>
+            </style>
+
+            <style name="Text_16_Medium.Primary_04" parent="Text_16_Medium">
+                <item name="android:textColor">@color/Primary_04</item>
+            </style>
+
+            <style name="Text_16_Medium.Primary_05" parent="Text_16_Medium">
+                <item name="android:textColor">@color/Primary_05</item>
+            </style>
+
+            <style name="Text_16_Medium.Primary_06" parent="Text_16_Medium">
+                <item name="android:textColor">@color/Primary_06</item>
+            </style>
+
+            <style name="Text_16_Medium.Primary_07" parent="Text_16_Medium">
+                <item name="android:textColor">@color/Primary_07</item>
+            </style>
+
+            <style name="Text_18_Medium.Primary_01" parent="Text_18_Medium">
+                <item name="android:textColor">@color/Primary_01</item>
+            </style>
+
+            <style name="Text_18_Medium.Primary_02" parent="Text_18_Medium">
+                <item name="android:textColor">@color/Primary_02</item>
+            </style>
+
+            <style name="Text_18_Medium.Primary_03" parent="Text_18_Medium">
+                <item name="android:textColor">@color/Primary_03</item>
+            </style>
+
+            <style name="Text_18_Medium.Primary_04" parent="Text_18_Medium">
+                <item name="android:textColor">@color/Primary_04</item>
+            </style>
+
+            <style name="Text_18_Medium.Primary_05" parent="Text_18_Medium">
+                <item name="android:textColor">@color/Primary_05</item>
+            </style>
+
+            <style name="Text_18_Medium.Primary_06" parent="Text_18_Medium">
+                <item name="android:textColor">@color/Primary_06</item>
+            </style>
+
+            <style name="Text_18_Medium.Primary_07" parent="Text_18_Medium">
+                <item name="android:textColor">@color/Primary_07</item>
+            </style>
+
+            <style name="Text_20_Medium.Primary_01" parent="Text_20_Medium">
+                <item name="android:textColor">@color/Primary_01</item>
+            </style>
+
+            <style name="Text_20_Medium.Primary_02" parent="Text_20_Medium">
+                <item name="android:textColor">@color/Primary_02</item>
+            </style>
+
+            <style name="Text_20_Medium.Primary_03" parent="Text_20_Medium">
+                <item name="android:textColor">@color/Primary_03</item>
+            </style>
+
+            <style name="Text_20_Medium.Primary_04" parent="Text_20_Medium">
+                <item name="android:textColor">@color/Primary_04</item>
+            </style>
+
+            <style name="Text_20_Medium.Primary_05" parent="Text_20_Medium">
+                <item name="android:textColor">@color/Primary_05</item>
+            </style>
+
+            <style name="Text_20_Medium.Primary_06" parent="Text_20_Medium">
+                <item name="android:textColor">@color/Primary_06</item>
+            </style>
+
+            <style name="Text_20_Medium.Primary_07" parent="Text_20_Medium">
+                <item name="android:textColor">@color/Primary_07</item>
+            </style>
+
+            <style name="Text_22_Medium.Primary_01" parent="Text_22_Medium">
+                <item name="android:textColor">@color/Primary_01</item>
+            </style>
+
+            <style name="Text_22_Medium.Primary_02" parent="Text_22_Medium">
+                <item name="android:textColor">@color/Primary_02</item>
+            </style>
+
+            <style name="Text_22_Medium.Primary_03" parent="Text_22_Medium">
+                <item name="android:textColor">@color/Primary_03</item>
+            </style>
+
+            <style name="Text_22_Medium.Primary_04" parent="Text_22_Medium">
+                <item name="android:textColor">@color/Primary_04</item>
+            </style>
+
+            <style name="Text_22_Medium.Primary_05" parent="Text_22_Medium">
+                <item name="android:textColor">@color/Primary_05</item>
+            </style>
+
+            <style name="Text_22_Medium.Primary_06" parent="Text_22_Medium">
+                <item name="android:textColor">@color/Primary_06</item>
+            </style>
+
+            <style name="Text_22_Medium.Primary_07" parent="Text_22_Medium">
+                <item name="android:textColor">@color/Primary_07</item>
+            </style>
+
+            <style name="Text_24_Medium.Primary_01" parent="Text_24_Medium">
+                <item name="android:textColor">@color/Primary_01</item>
+            </style>
+
+            <style name="Text_24_Medium.Primary_02" parent="Text_24_Medium">
+                <item name="android:textColor">@color/Primary_02</item>
+            </style>
+
+            <style name="Text_24_Medium.Primary_03" parent="Text_24_Medium">
+                <item name="android:textColor">@color/Primary_03</item>
+            </style>
+
+            <style name="Text_24_Medium.Primary_04" parent="Text_24_Medium">
+                <item name="android:textColor">@color/Primary_04</item>
+            </style>
+
+            <style name="Text_24_Medium.Primary_05" parent="Text_24_Medium">
+                <item name="android:textColor">@color/Primary_05</item>
+            </style>
+
+            <style name="Text_24_Medium.Primary_06" parent="Text_24_Medium">
+                <item name="android:textColor">@color/Primary_06</item>
+            </style>
+
+            <style name="Text_24_Medium.Primary_07" parent="Text_24_Medium">
+                <item name="android:textColor">@color/Primary_07</item>
+            </style>
+
+            <style name="Text_26_Medium.Primary_01" parent="Text_26_Medium">
+                <item name="android:textColor">@color/Primary_01</item>
+            </style>
+
+            <style name="Text_26_Medium.Primary_02" parent="Text_26_Medium">
+                <item name="android:textColor">@color/Primary_02</item>
+            </style>
+
+            <style name="Text_26_Medium.Primary_03" parent="Text_26_Medium">
+                <item name="android:textColor">@color/Primary_03</item>
+            </style>
+
+            <style name="Text_26_Medium.Primary_04" parent="Text_26_Medium">
+                <item name="android:textColor">@color/Primary_04</item>
+            </style>
+
+            <style name="Text_26_Medium.Primary_05" parent="Text_26_Medium">
+                <item name="android:textColor">@color/Primary_05</item>
+            </style>
+
+            <style name="Text_26_Medium.Primary_06" parent="Text_26_Medium">
+                <item name="android:textColor">@color/Primary_06</item>
+            </style>
+
+            <style name="Text_26_Medium.Primary_07" parent="Text_26_Medium">
+                <item name="android:textColor">@color/Primary_07</item>
+            </style>
+
+            <style name="Text_28_Medium.Primary_01" parent="Text_28_Medium">
+                <item name="android:textColor">@color/Primary_01</item>
+            </style>
+
+            <style name="Text_28_Medium.Primary_02" parent="Text_28_Medium">
+                <item name="android:textColor">@color/Primary_02</item>
+            </style>
+
+            <style name="Text_28_Medium.Primary_03" parent="Text_28_Medium">
+                <item name="android:textColor">@color/Primary_03</item>
+            </style>
+
+            <style name="Text_28_Medium.Primary_04" parent="Text_28_Medium">
+                <item name="android:textColor">@color/Primary_04</item>
+            </style>
+
+            <style name="Text_28_Medium.Primary_05" parent="Text_28_Medium">
+                <item name="android:textColor">@color/Primary_05</item>
+            </style>
+
+            <style name="Text_28_Medium.Primary_06" parent="Text_28_Medium">
+                <item name="android:textColor">@color/Primary_06</item>
+            </style>
+
+            <style name="Text_28_Medium.Primary_07" parent="Text_28_Medium">
+                <item name="android:textColor">@color/Primary_07</item>
+            </style>
+
+
+
+
+
+
+    <!-- Bold Text Style -->
+        <!-- Base Color -->
+            <style name="Text_10_Bold.Base_01" parent="Text_10_Bold">
+                <item name="android:textColor">@color/Base_01</item>
+            </style>
+
+            <style name="Text_10_Bold.Base_02" parent="Text_10_Bold">
+                <item name="android:textColor">@color/Base_02</item>
+            </style>
+
+            <style name="Text_10_Bold.Base_03" parent="Text_10_Bold">
+                <item name="android:textColor">@color/Base_03</item>
+            </style>
+
+            <style name="Text_10_Bold.Base_04" parent="Text_10_Bold">
+                <item name="android:textColor">@color/Base_04</item>
+            </style>
+
+            <style name="Text_10_Bold.Base_05" parent="Text_10_Bold">
+                <item name="android:textColor">@color/Base_05</item>
+            </style>
+
+            <style name="Text_10_Bold.Base_06" parent="Text_10_Bold">
+                <item name="android:textColor">@color/Base_06</item>
+            </style>
+
+            <style name="Text_10_Bold.Base_07" parent="Text_10_Bold">
+                <item name="android:textColor">@color/Base_07</item>
+            </style>
+
+            <style name="Text_10_Bold.Base_08" parent="Text_10_Bold">
+                <item name="android:textColor">@color/Base_08</item>
+            </style>
+
+            <style name="Text_10_Bold.Base_09" parent="Text_10_Bold">
+                <item name="android:textColor">@color/Base_09</item>
+            </style>
+
+            <style name="Text_12_Bold.Base_01" parent="Text_12_Bold">
+                <item name="android:textColor">@color/Base_01</item>
+            </style>
+
+            <style name="Text_12_Bold.Base_02" parent="Text_12_Bold">
+                <item name="android:textColor">@color/Base_02</item>
+            </style>
+
+            <style name="Text_12_Bold.Base_03" parent="Text_12_Bold">
+                <item name="android:textColor">@color/Base_03</item>
+            </style>
+
+            <style name="Text_12_Bold.Base_04" parent="Text_12_Bold">
+                <item name="android:textColor">@color/Base_04</item>
+            </style>
+
+            <style name="Text_12_Bold.Base_05" parent="Text_12_Bold">
+                <item name="android:textColor">@color/Base_05</item>
+            </style>
+
+            <style name="Text_12_Bold.Base_06" parent="Text_12_Bold">
+                <item name="android:textColor">@color/Base_06</item>
+            </style>
+
+            <style name="Text_12_Bold.Base_07" parent="Text_12_Bold">
+                <item name="android:textColor">@color/Base_07</item>
+            </style>
+
+            <style name="Text_12_Bold.Base_08" parent="Text_12_Bold">
+                <item name="android:textColor">@color/Base_08</item>
+            </style>
+
+            <style name="Text_12_Bold.Base_09" parent="Text_12_Bold">
+                <item name="android:textColor">@color/Base_09</item>
+            </style>
+
+            <style name="Text_14_Bold.Base_01" parent="Text_14_Bold">
+                <item name="android:textColor">@color/Base_01</item>
+            </style>
+
+            <style name="Text_14_Bold.Base_02" parent="Text_14_Bold">
+                <item name="android:textColor">@color/Base_02</item>
+            </style>
+
+            <style name="Text_14_Bold.Base_03" parent="Text_14_Bold">
+                <item name="android:textColor">@color/Base_03</item>
+            </style>
+
+            <style name="Text_14_Bold.Base_04" parent="Text_14_Bold">
+                <item name="android:textColor">@color/Base_04</item>
+            </style>
+
+            <style name="Text_14_Bold.Base_05" parent="Text_14_Bold">
+                <item name="android:textColor">@color/Base_05</item>
+            </style>
+
+            <style name="Text_14_Bold.Base_06" parent="Text_14_Bold">
+                <item name="android:textColor">@color/Base_06</item>
+            </style>
+
+            <style name="Text_14_Bold.Base_07" parent="Text_14_Bold">
+                <item name="android:textColor">@color/Base_07</item>
+            </style>
+
+            <style name="Text_14_Bold.Base_08" parent="Text_14_Bold">
+                <item name="android:textColor">@color/Base_08</item>
+            </style>
+
+            <style name="Text_14_Bold.Base_09" parent="Text_14_Bold">
+                <item name="android:textColor">@color/Base_09</item>
+            </style>
+
+            <style name="Text_16_Bold.Base_01" parent="Text_16_Bold">
+                <item name="android:textColor">@color/Base_01</item>
+            </style>
+
+            <style name="Text_16_Bold.Base_02" parent="Text_16_Bold">
+                <item name="android:textColor">@color/Base_02</item>
+            </style>
+
+            <style name="Text_16_Bold.Base_03" parent="Text_16_Bold">
+                <item name="android:textColor">@color/Base_03</item>
+            </style>
+
+            <style name="Text_16_Bold.Base_04" parent="Text_16_Bold">
+                <item name="android:textColor">@color/Base_04</item>
+            </style>
+
+            <style name="Text_16_Bold.Base_05" parent="Text_16_Bold">
+                <item name="android:textColor">@color/Base_05</item>
+            </style>
+
+            <style name="Text_16_Bold.Base_06" parent="Text_16_Bold">
+                <item name="android:textColor">@color/Base_06</item>
+            </style>
+
+            <style name="Text_16_Bold.Base_07" parent="Text_16_Bold">
+                <item name="android:textColor">@color/Base_07</item>
+            </style>
+
+            <style name="Text_16_Bold.Base_08" parent="Text_16_Bold">
+                <item name="android:textColor">@color/Base_08</item>
+            </style>
+
+            <style name="Text_16_Bold.Base_09" parent="Text_16_Bold">
+                <item name="android:textColor">@color/Base_09</item>
+            </style>
+
+            <style name="Text_18_Bold.Base_01" parent="Text_18_Bold">
+                <item name="android:textColor">@color/Base_01</item>
+            </style>
+
+            <style name="Text_18_Bold.Base_02" parent="Text_18_Bold">
+                <item name="android:textColor">@color/Base_02</item>
+            </style>
+
+            <style name="Text_18_Bold.Base_03" parent="Text_18_Bold">
+                <item name="android:textColor">@color/Base_03</item>
+            </style>
+
+            <style name="Text_18_Bold.Base_04" parent="Text_18_Bold">
+                <item name="android:textColor">@color/Base_04</item>
+            </style>
+
+            <style name="Text_18_Bold.Base_05" parent="Text_18_Bold">
+                <item name="android:textColor">@color/Base_05</item>
+            </style>
+
+            <style name="Text_18_Bold.Base_06" parent="Text_18_Bold">
+                <item name="android:textColor">@color/Base_06</item>
+            </style>
+
+            <style name="Text_18_Bold.Base_07" parent="Text_18_Bold">
+                <item name="android:textColor">@color/Base_07</item>
+            </style>
+
+            <style name="Text_18_Bold.Base_08" parent="Text_18_Bold">
+                <item name="android:textColor">@color/Base_08</item>
+            </style>
+
+            <style name="Text_18_Bold.Base_09" parent="Text_18_Bold">
+                <item name="android:textColor">@color/Base_09</item>
+            </style>
+
+            <style name="Text_20_Bold.Base_01" parent="Text_20_Bold">
+                <item name="android:textColor">@color/Base_01</item>
+            </style>
+
+            <style name="Text_20_Bold.Base_02" parent="Text_20_Bold">
+                <item name="android:textColor">@color/Base_02</item>
+            </style>
+
+            <style name="Text_20_Bold.Base_03" parent="Text_20_Bold">
+                <item name="android:textColor">@color/Base_03</item>
+            </style>
+
+            <style name="Text_20_Bold.Base_04" parent="Text_20_Bold">
+                <item name="android:textColor">@color/Base_04</item>
+            </style>
+
+            <style name="Text_20_Bold.Base_05" parent="Text_20_Bold">
+                <item name="android:textColor">@color/Base_05</item>
+            </style>
+
+            <style name="Text_20_Bold.Base_06" parent="Text_20_Bold">
+                <item name="android:textColor">@color/Base_06</item>
+            </style>
+
+            <style name="Text_20_Bold.Base_07" parent="Text_20_Bold">
+                <item name="android:textColor">@color/Base_07</item>
+            </style>
+
+            <style name="Text_20_Bold.Base_08" parent="Text_20_Bold">
+                <item name="android:textColor">@color/Base_08</item>
+            </style>
+
+            <style name="Text_20_Bold.Base_09" parent="Text_20_Bold">
+                <item name="android:textColor">@color/Base_09</item>
+            </style>
+
+            <style name="Text_22_Bold.Base_01" parent="Text_22_Bold">
+                <item name="android:textColor">@color/Base_01</item>
+            </style>
+
+            <style name="Text_22_Bold.Base_02" parent="Text_22_Bold">
+                <item name="android:textColor">@color/Base_02</item>
+            </style>
+
+            <style name="Text_22_Bold.Base_03" parent="Text_22_Bold">
+                <item name="android:textColor">@color/Base_03</item>
+            </style>
+
+            <style name="Text_22_Bold.Base_04" parent="Text_22_Bold">
+                <item name="android:textColor">@color/Base_04</item>
+            </style>
+
+            <style name="Text_22_Bold.Base_05" parent="Text_22_Bold">
+                <item name="android:textColor">@color/Base_05</item>
+            </style>
+
+            <style name="Text_22_Bold.Base_06" parent="Text_22_Bold">
+                <item name="android:textColor">@color/Base_06</item>
+            </style>
+
+            <style name="Text_22_Bold.Base_07" parent="Text_22_Bold">
+                <item name="android:textColor">@color/Base_07</item>
+            </style>
+
+            <style name="Text_22_Bold.Base_08" parent="Text_22_Bold">
+                <item name="android:textColor">@color/Base_08</item>
+            </style>
+
+            <style name="Text_22_Bold.Base_09" parent="Text_22_Bold">
+                <item name="android:textColor">@color/Base_09</item>
+            </style>
+
+            <style name="Text_24_Bold.Base_01" parent="Text_24_Bold">
+                <item name="android:textColor">@color/Base_01</item>
+            </style>
+
+            <style name="Text_24_Bold.Base_02" parent="Text_24_Bold">
+                <item name="android:textColor">@color/Base_02</item>
+            </style>
+
+            <style name="Text_24_Bold.Base_03" parent="Text_24_Bold">
+                <item name="android:textColor">@color/Base_03</item>
+            </style>
+
+            <style name="Text_24_Bold.Base_04" parent="Text_24_Bold">
+                <item name="android:textColor">@color/Base_04</item>
+            </style>
+
+            <style name="Text_24_Bold.Base_05" parent="Text_24_Bold">
+                <item name="android:textColor">@color/Base_05</item>
+            </style>
+
+            <style name="Text_24_Bold.Base_06" parent="Text_24_Bold">
+                <item name="android:textColor">@color/Base_06</item>
+            </style>
+
+            <style name="Text_24_Bold.Base_07" parent="Text_24_Bold">
+                <item name="android:textColor">@color/Base_07</item>
+            </style>
+
+            <style name="Text_24_Bold.Base_08" parent="Text_24_Bold">
+                <item name="android:textColor">@color/Base_08</item>
+            </style>
+
+            <style name="Text_24_Bold.Base_09" parent="Text_24_Bold">
+                <item name="android:textColor">@color/Base_09</item>
+            </style>
+
+            <style name="Text_26_Bold.Base_01" parent="Text_26_Bold">
+                <item name="android:textColor">@color/Base_01</item>
+            </style>
+
+            <style name="Text_26_Bold.Base_02" parent="Text_26_Bold">
+                <item name="android:textColor">@color/Base_02</item>
+            </style>
+
+            <style name="Text_26_Bold.Base_03" parent="Text_26_Bold">
+                <item name="android:textColor">@color/Base_03</item>
+            </style>
+
+            <style name="Text_26_Bold.Base_04" parent="Text_26_Bold">
+                <item name="android:textColor">@color/Base_04</item>
+            </style>
+
+            <style name="Text_26_Bold.Base_05" parent="Text_26_Bold">
+                <item name="android:textColor">@color/Base_05</item>
+            </style>
+
+            <style name="Text_26_Bold.Base_06" parent="Text_26_Bold">
+                <item name="android:textColor">@color/Base_06</item>
+            </style>
+
+            <style name="Text_26_Bold.Base_07" parent="Text_26_Bold">
+                <item name="android:textColor">@color/Base_07</item>
+            </style>
+
+            <style name="Text_26_Bold.Base_08" parent="Text_26_Bold">
+                <item name="android:textColor">@color/Base_08</item>
+            </style>
+
+            <style name="Text_26_Bold.Base_09" parent="Text_26_Bold">
+                <item name="android:textColor">@color/Base_09</item>
+            </style>
+
+            <style name="Text_28_Bold.Base_01" parent="Text_28_Bold">
+                <item name="android:textColor">@color/Base_01</item>
+            </style>
+
+            <style name="Text_28_Bold.Base_02" parent="Text_28_Bold">
+                <item name="android:textColor">@color/Base_02</item>
+            </style>
+
+            <style name="Text_28_Bold.Base_03" parent="Text_28_Bold">
+                <item name="android:textColor">@color/Base_03</item>
+            </style>
+
+            <style name="Text_28_Bold.Base_04" parent="Text_28_Bold">
+                <item name="android:textColor">@color/Base_04</item>
+            </style>
+
+            <style name="Text_28_Bold.Base_05" parent="Text_28_Bold">
+                <item name="android:textColor">@color/Base_05</item>
+            </style>
+
+            <style name="Text_28_Bold.Base_06" parent="Text_28_Bold">
+                <item name="android:textColor">@color/Base_06</item>
+            </style>
+
+            <style name="Text_28_Bold.Base_07" parent="Text_28_Bold">
+                <item name="android:textColor">@color/Base_07</item>
+            </style>
+
+            <style name="Text_28_Bold.Base_08" parent="Text_28_Bold">
+                <item name="android:textColor">@color/Base_08</item>
+            </style>
+
+            <style name="Text_28_Bold.Base_09" parent="Text_28_Bold">
+                <item name="android:textColor">@color/Base_09</item>
+            </style>
+
+        <!-- Primary Color -->
+            <style name="Text_10_Bold.Primary_01" parent="Text_10_Bold">
+                <item name="android:textColor">@color/Primary_01</item>
+            </style>
+
+            <style name="Text_10_Bold.Primary_02" parent="Text_10_Bold">
+                <item name="android:textColor">@color/Primary_02</item>
+            </style>
+
+            <style name="Text_10_Bold.Primary_03" parent="Text_10_Bold">
+                <item name="android:textColor">@color/Primary_03</item>
+            </style>
+
+            <style name="Text_10_Bold.Primary_04" parent="Text_10_Bold">
+                <item name="android:textColor">@color/Primary_04</item>
+            </style>
+
+            <style name="Text_10_Bold.Primary_05" parent="Text_10_Bold">
+                <item name="android:textColor">@color/Primary_05</item>
+            </style>
+
+            <style name="Text_10_Bold.Primary_06" parent="Text_10_Bold">
+                <item name="android:textColor">@color/Primary_06</item>
+            </style>
+
+            <style name="Text_10_Bold.Primary_07" parent="Text_10_Bold">
+                <item name="android:textColor">@color/Primary_07</item>
+            </style>
+
+            <style name="Text_12_Bold.Primary_01" parent="Text_12_Bold">
+                <item name="android:textColor">@color/Primary_01</item>
+            </style>
+
+            <style name="Text_12_Bold.Primary_02" parent="Text_12_Bold">
+                <item name="android:textColor">@color/Primary_02</item>
+            </style>
+
+            <style name="Text_12_Bold.Primary_03" parent="Text_12_Bold">
+                <item name="android:textColor">@color/Primary_03</item>
+            </style>
+
+            <style name="Text_12_Bold.Primary_04" parent="Text_12_Bold">
+                <item name="android:textColor">@color/Primary_04</item>
+            </style>
+
+            <style name="Text_12_Bold.Primary_05" parent="Text_12_Bold">
+                <item name="android:textColor">@color/Primary_05</item>
+            </style>
+
+            <style name="Text_12_Bold.Primary_06" parent="Text_12_Bold">
+                <item name="android:textColor">@color/Primary_06</item>
+            </style>
+
+            <style name="Text_12_Bold.Primary_07" parent="Text_12_Bold">
+                <item name="android:textColor">@color/Primary_07</item>
+            </style>
+
+            <style name="Text_14_Bold.Primary_01" parent="Text_14_Bold">
+                <item name="android:textColor">@color/Primary_01</item>
+            </style>
+
+            <style name="Text_14_Bold.Primary_02" parent="Text_14_Bold">
+                <item name="android:textColor">@color/Primary_02</item>
+            </style>
+
+            <style name="Text_14_Bold.Primary_03" parent="Text_14_Bold">
+                <item name="android:textColor">@color/Primary_03</item>
+            </style>
+
+            <style name="Text_14_Bold.Primary_04" parent="Text_14_Bold">
+                <item name="android:textColor">@color/Primary_04</item>
+            </style>
+
+            <style name="Text_14_Bold.Primary_05" parent="Text_14_Bold">
+                <item name="android:textColor">@color/Primary_05</item>
+            </style>
+
+            <style name="Text_14_Bold.Primary_06" parent="Text_14_Bold">
+                <item name="android:textColor">@color/Primary_06</item>
+            </style>
+
+            <style name="Text_14_Bold.Primary_07" parent="Text_14_Bold">
+                <item name="android:textColor">@color/Primary_07</item>
+            </style>
+
+            <style name="Text_16_Bold.Primary_01" parent="Text_16_Bold">
+                <item name="android:textColor">@color/Primary_01</item>
+            </style>
+
+            <style name="Text_16_Bold.Primary_02" parent="Text_16_Bold">
+                <item name="android:textColor">@color/Primary_02</item>
+            </style>
+
+            <style name="Text_16_Bold.Primary_03" parent="Text_16_Bold">
+                <item name="android:textColor">@color/Primary_03</item>
+            </style>
+
+            <style name="Text_16_Bold.Primary_04" parent="Text_16_Bold">
+                <item name="android:textColor">@color/Primary_04</item>
+            </style>
+
+            <style name="Text_16_Bold.Primary_05" parent="Text_16_Bold">
+                <item name="android:textColor">@color/Primary_05</item>
+            </style>
+
+            <style name="Text_16_Bold.Primary_06" parent="Text_16_Bold">
+                <item name="android:textColor">@color/Primary_06</item>
+            </style>
+
+            <style name="Text_16_Bold.Primary_07" parent="Text_16_Bold">
+                <item name="android:textColor">@color/Primary_07</item>
+            </style>
+
+            <style name="Text_18_Bold.Primary_01" parent="Text_18_Bold">
+                <item name="android:textColor">@color/Primary_01</item>
+            </style>
+
+            <style name="Text_18_Bold.Primary_02" parent="Text_18_Bold">
+                <item name="android:textColor">@color/Primary_02</item>
+            </style>
+
+            <style name="Text_18_Bold.Primary_03" parent="Text_18_Bold">
+                <item name="android:textColor">@color/Primary_03</item>
+            </style>
+
+            <style name="Text_18_Bold.Primary_04" parent="Text_18_Bold">
+                <item name="android:textColor">@color/Primary_04</item>
+            </style>
+
+            <style name="Text_18_Bold.Primary_05" parent="Text_18_Bold">
+                <item name="android:textColor">@color/Primary_05</item>
+            </style>
+
+            <style name="Text_18_Bold.Primary_06" parent="Text_18_Bold">
+                <item name="android:textColor">@color/Primary_06</item>
+            </style>
+
+            <style name="Text_18_Bold.Primary_07" parent="Text_18_Bold">
+                <item name="android:textColor">@color/Primary_07</item>
+            </style>
+
+            <style name="Text_20_Bold.Primary_01" parent="Text_20_Bold">
+                <item name="android:textColor">@color/Primary_01</item>
+            </style>
+
+            <style name="Text_20_Bold.Primary_02" parent="Text_20_Bold">
+                <item name="android:textColor">@color/Primary_02</item>
+            </style>
+
+            <style name="Text_20_Bold.Primary_03" parent="Text_20_Bold">
+                <item name="android:textColor">@color/Primary_03</item>
+            </style>
+
+            <style name="Text_20_Bold.Primary_04" parent="Text_20_Bold">
+                <item name="android:textColor">@color/Primary_04</item>
+            </style>
+
+            <style name="Text_20_Bold.Primary_05" parent="Text_20_Bold">
+                <item name="android:textColor">@color/Primary_05</item>
+            </style>
+
+            <style name="Text_20_Bold.Primary_06" parent="Text_20_Bold">
+                <item name="android:textColor">@color/Primary_06</item>
+            </style>
+
+            <style name="Text_20_Bold.Primary_07" parent="Text_20_Bold">
+                <item name="android:textColor">@color/Primary_07</item>
+            </style>
+
+            <style name="Text_22_Bold.Primary_01" parent="Text_22_Bold">
+                <item name="android:textColor">@color/Primary_01</item>
+            </style>
+
+            <style name="Text_22_Bold.Primary_02" parent="Text_22_Bold">
+                <item name="android:textColor">@color/Primary_02</item>
+            </style>
+
+            <style name="Text_22_Bold.Primary_03" parent="Text_22_Bold">
+                <item name="android:textColor">@color/Primary_03</item>
+            </style>
+
+            <style name="Text_22_Bold.Primary_04" parent="Text_22_Bold">
+                <item name="android:textColor">@color/Primary_04</item>
+            </style>
+
+            <style name="Text_22_Bold.Primary_05" parent="Text_22_Bold">
+                <item name="android:textColor">@color/Primary_05</item>
+            </style>
+
+            <style name="Text_22_Bold.Primary_06" parent="Text_22_Bold">
+                <item name="android:textColor">@color/Primary_06</item>
+            </style>
+
+            <style name="Text_22_Bold.Primary_07" parent="Text_22_Bold">
+                <item name="android:textColor">@color/Primary_07</item>
+            </style>
+
+            <style name="Text_24_Bold.Primary_01" parent="Text_24_Bold">
+                <item name="android:textColor">@color/Primary_01</item>
+            </style>
+
+            <style name="Text_24_Bold.Primary_02" parent="Text_24_Bold">
+                <item name="android:textColor">@color/Primary_02</item>
+            </style>
+
+            <style name="Text_24_Bold.Primary_03" parent="Text_24_Bold">
+                <item name="android:textColor">@color/Primary_03</item>
+            </style>
+
+            <style name="Text_24_Bold.Primary_04" parent="Text_24_Bold">
+                <item name="android:textColor">@color/Primary_04</item>
+            </style>
+
+            <style name="Text_24_Bold.Primary_05" parent="Text_24_Bold">
+                <item name="android:textColor">@color/Primary_05</item>
+            </style>
+
+            <style name="Text_24_Bold.Primary_06" parent="Text_24_Bold">
+                <item name="android:textColor">@color/Primary_06</item>
+            </style>
+
+            <style name="Text_24_Bold.Primary_07" parent="Text_24_Bold">
+                <item name="android:textColor">@color/Primary_07</item>
+            </style>
+
+            <style name="Text_26_Bold.Primary_01" parent="Text_26_Bold">
+                <item name="android:textColor">@color/Primary_01</item>
+            </style>
+
+            <style name="Text_26_Bold.Primary_02" parent="Text_26_Bold">
+                <item name="android:textColor">@color/Primary_02</item>
+            </style>
+
+            <style name="Text_26_Bold.Primary_03" parent="Text_26_Bold">
+                <item name="android:textColor">@color/Primary_03</item>
+            </style>
+
+            <style name="Text_26_Bold.Primary_04" parent="Text_26_Bold">
+                <item name="android:textColor">@color/Primary_04</item>
+            </style>
+
+            <style name="Text_26_Bold.Primary_05" parent="Text_26_Bold">
+                <item name="android:textColor">@color/Primary_05</item>
+            </style>
+
+            <style name="Text_26_Bold.Primary_06" parent="Text_26_Bold">
+                <item name="android:textColor">@color/Primary_06</item>
+            </style>
+
+            <style name="Text_26_Bold.Primary_07" parent="Text_26_Bold">
+                <item name="android:textColor">@color/Primary_07</item>
+            </style>
+
+            <style name="Text_28_Bold.Primary_01" parent="Text_28_Bold">
+                <item name="android:textColor">@color/Primary_01</item>
+            </style>
+
+            <style name="Text_28_Bold.Primary_02" parent="Text_28_Bold">
+                <item name="android:textColor">@color/Primary_02</item>
+            </style>
+
+            <style name="Text_28_Bold.Primary_03" parent="Text_28_Bold">
+                <item name="android:textColor">@color/Primary_03</item>
+            </style>
+
+            <style name="Text_28_Bold.Primary_04" parent="Text_28_Bold">
+                <item name="android:textColor">@color/Primary_04</item>
+            </style>
+
+            <style name="Text_28_Bold.Primary_05" parent="Text_28_Bold">
+                <item name="android:textColor">@color/Primary_05</item>
+            </style>
+
+            <style name="Text_28_Bold.Primary_06" parent="Text_28_Bold">
+                <item name="android:textColor">@color/Primary_06</item>
+            </style>
+
+            <style name="Text_28_Bold.Primary_07" parent="Text_28_Bold">
+                <item name="android:textColor">@color/Primary_07</item>
+            </style>
+
+
+
+</resources>

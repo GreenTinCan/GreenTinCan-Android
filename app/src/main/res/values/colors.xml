@@ -1,5 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="black">#FF000000</color>
+
+    <!-- Primary Color -->
+    <color name="Primary_01">#3F1452</color>
+    <color name="Primary_02">#500F6B</color>
+    <color name="Primary_03">#631385</color>
+    <color name="Primary_04">#6F029E</color>
+    <color name="Primary_05">#8825B2</color>
+    <color name="Primary_06">#A23FCC</color>
+    <color name="Primary_07">#BD5EE5</color>
+    <color name="Primary_08">#40B25EE5</color>
+    <color name="Primary_09">#F7E3FF</color>
+
+    <!-- Base Color -->
+    <color name="Base_01">#1E1F1F</color>
+    <color name="Base_02">#373939</color>
+    <color name="Base_03">#4F5454</color>
+    <color name="Base_04">#676F6F</color>
+    <color name="Base_05">#7F8A8A</color>
+    <color name="Base_06">#B3BDBC</color>
+    <color name="Base_07">#B3BDBC</color>
+    <color name="Base_08">#F4F5F5</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="Base_09">#F6F6F6</color>
+
+    <!-- Grey Color -->
+    <color name="Grey_05">#7F8A8A</color>
+
+    <!-- Red Color -->
+    <color name="Red_Main">#F35D5D</color>
+
 </resources>
