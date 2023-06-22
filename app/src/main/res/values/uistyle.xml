@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- 바텀 네비게이션 텍스트 -->
+    <!-- Bottom Navigation Style -->
     <style name="Widget.BottomNavigationView" parent="Widget.Material3.BottomNavigationView">
         <item name="android:textSize">12sp</item>
     </style>
@@ -15,6 +15,12 @@
 
     <style name="Widget.BottomNavigationView.Active" parent="Widget.BottomNavigationView">
         <item name="android:fontFamily">@font/noto_sans_kr_medium</item>
+    </style>
+
+    <!-- Button Style -->
+    <style name="Widget.AppCompatButton.Gradient" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/bg_gradient_purple_blue</item>
+        <item name="android:textAppearance">@style/Text_16_Medium.Base_09</item>
     </style>
 
 </resources>
