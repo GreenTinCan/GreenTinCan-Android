@@ -3,6 +3,14 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools">
 
+    <data>
+
+        <variable
+            name="matchingInfo"
+            type="com.example.protalktime.data.model.meeting.MatchingListBody" />
+
+    </data>
+
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -26,14 +34,15 @@
 
             <com.google.android.material.imageview.ShapeableImageView
                 android:id="@+id/iv_user_profile"
+                setImageUrl="@{matchingInfo.memberImageUrl}"
                 android:layout_width="48dp"
                 android:layout_height="48dp"
                 android:layout_marginTop="22dp"
                 android:background="@color/Base_07"
+                android:scaleType="centerCrop"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:shapeAppearanceOverlay="@style/CircleImageView"
-                tools:src="@drawable/img_test" />
+                app:shapeAppearanceOverlay="@style/CircleImageView" />
 
             <androidx.appcompat.widget.AppCompatTextView
                 android:id="@+id/tv_user_name"
@@ -41,15 +50,16 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
+                android:text="@{matchingInfo.memberNickName}"
                 app:layout_constraintBottom_toTopOf="@id/tv_user_student_code"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toEndOf="@id/iv_user_profile"
-                app:layout_constraintTop_toTopOf="@id/iv_user_profile"
-                tools:text="윤승민" />
+                app:layout_constraintTop_toTopOf="@id/iv_user_profile" />
 
             <androidx.appcompat.widget.AppCompatTextView
                 android:id="@+id/tv_recommended_count"
                 style="@style/Text_12_Regular"
+                recommendCount="@{matchingInfo.memberGood}"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@drawable/bg_solid_green"
@@ -60,10 +70,10 @@
                 android:paddingTop="4dp"
                 android:paddingEnd="10dp"
                 android:paddingBottom="4dp"
-                android:text="성공 밥풀 - 13"
                 android:textColor="#79D482"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintTop_toTopOf="@id/tv_user_name" />
+                app:layout_constraintTop_toTopOf="@id/tv_user_name"
+                tools:text="성공 밥풀 - 13" />
 
             <androidx.appcompat.widget.AppCompatTextView
                 android:id="@+id/tv_user_student_code"
@@ -95,10 +105,10 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="4dp"
+                android:text="@{matchingInfo.memberSex}"
                 app:layout_constraintBottom_toBottomOf="@id/tv_user_student_code"
                 app:layout_constraintStart_toEndOf="@id/iv_divider_user_sub_info"
-                app:layout_constraintTop_toTopOf="@id/tv_user_student_code"
-                tools:text="남" />
+                app:layout_constraintTop_toTopOf="@id/tv_user_student_code" />
 
             <androidx.appcompat.widget.AppCompatTextView
                 android:id="@+id/tv_recruit_title"
@@ -106,6 +116,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
+                android:text="@{matchingInfo.script}"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/iv_user_profile"
@@ -133,14 +144,15 @@
 
             <androidx.appcompat.widget.AppCompatTextView
                 style="@style/Text_14_Medium.Primary_03"
+                date="@{matchingInfo.meetTime}"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
-                android:text="7월 4일 14시"
                 app:layout_constraintBottom_toBottomOf="@id/iv_calendar"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toEndOf="@id/iv_calendar"
-                app:layout_constraintTop_toTopOf="@id/iv_calendar" />
+                app:layout_constraintTop_toTopOf="@id/iv_calendar"
+                tools:text="7월 4일 14시" />
 
             <androidx.appcompat.widget.AppCompatImageView
                 android:id="@+id/iv_money"
@@ -153,14 +165,15 @@
 
             <androidx.appcompat.widget.AppCompatTextView
                 style="@style/Text_14_Medium.Primary_03"
+                money="@{matchingInfo.maxPrice}"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
-                android:text="23000원"
                 app:layout_constraintBottom_toBottomOf="@id/iv_money"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toEndOf="@id/iv_money"
-                app:layout_constraintTop_toTopOf="@id/iv_money" />
+                app:layout_constraintTop_toTopOf="@id/iv_money"
+                tools:text="20000원" />
 
             <com.google.android.material.chip.ChipGroup
                 android:id="@+id/cg_user_selected_option"
@@ -174,23 +187,34 @@
                 <com.google.android.material.chip.Chip
                     android:id="@+id/c_option_first"
                     style="@style/CustomFilterChipStyle"
+                    chipMC="@{matchingInfo.bigLocation}"
+                    order="@{0}"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="기본 위치 - 교내" />
+                    android:textColor="@color/Primary_03"
+                    app:chipCornerRadius="6dp" />
 
                 <com.google.android.material.chip.Chip
                     android:id="@+id/c_option_second"
                     style="@style/CustomFilterChipStyle"
+                    chipMC="@{matchingInfo.smallLocation}"
+                    order="@{1}"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="세부 위치 - 후생관" />
+                    android:textColor="@color/Primary_03"
+                    app:chipCornerRadius="6dp" />
 
                 <com.google.android.material.chip.Chip
-                    android:id="@+id/c_option_third"
+                    android:id="@+id/c_option_fourth"
                     style="@style/CustomFilterChipStyle"
+                    chipMC="@{matchingInfo.wishFood}"
+                    order="@{2}"
+                    app:chipMinTouchTargetSize="32dp"
+                    app:chipMinHeight="30dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="선호하는 위치 - 바비든든" />
+                    android:textColor="@color/Primary_03"
+                    app:chipCornerRadius="6dp" />
 
             </com.google.android.material.chip.ChipGroup>
 
@@ -205,17 +229,13 @@
                 app:layout_constraintTop_toBottomOf="@id/cg_user_selected_option" />
 
             <com.google.android.material.button.MaterialButton
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="14dp"
                 android:backgroundTint="@color/Primary_03"
-                android:drawableRight="@drawable/ic_send_24"
-                android:drawablePadding="10dp"
-                android:paddingStart="120dp"
-                android:paddingEnd="120dp"
-                android:text="같이 먹어요"
-                android:textAppearance="@style/Text_16_Medium.Base_09"
-                app:cornerRadius="10dp"
+                android:text="같이 먹기 요청"
+                android:textAppearance="@style/Text_14_Medium.Base_09"
+                app:cornerRadius="14dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
