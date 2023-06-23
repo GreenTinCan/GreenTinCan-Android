@@ -5,7 +5,10 @@
     <string name="nav_first_label">모임</string>
     <string name="nav_second_label">커뮤니티</string>
     <string name="nav_third_label">마이 페이지</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
 
+    <!-- InputBox -->
+    <string name="meeting_search_bar_hint">원하는 모임을 검색하세요</string>
+
+    <!-- Dummy Text -->
+    <string name="dummy_text1">안녕하세요~ 광진구에 살고 있는 평범한 직장인입니다. 평소에 등산하는 것을 정말 좋아하는데 전문직에 종사하다 보니 평소 알던 지인들과 시간을 맞추기 정말 어려웠습니다 ㅜㅜ 그래서 같은 전문직 분들과 동지애도 느끼고 등산 친구도 만들겸 모집글을 작성하게 됐습니다. 서울에 등산할 수 있는 산이란 산은 다 정복할 생각입니다. 등산 좋아하시고 서울에 있는 산 타는 것을 좋아한다면 주저없이 연락주세요!</string>
 </resources>

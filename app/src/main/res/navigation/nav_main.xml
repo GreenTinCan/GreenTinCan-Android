@@ -3,37 +3,19 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_main"
-    app:startDestination="@id/nav_meeting">
-
+    app:startDestination="@id/meetingMainFragment">
     <fragment
-        android:id="@+id/nav_meeting"
-        android:name="com.example.protalktime.presentation.meeting.MeetingMainFragment"
+        android:id="@+id/meetingMainFragment"
+        android:name="com.example.protalktime.presentation.main.MatchingMainFragment"
         android:label="fragment_meeting_main"
         tools:layout="@layout/fragment_meeting_main" >
         <action
             android:id="@+id/action_meetingMainFragment_to_myPageFragment"
-            app:destination="@id/nav_my_page"
-            app:enterAnim="@anim/nav_default_enter_anim"
-            app:exitAnim="@anim/nav_default_exit_anim"
-            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
-            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
-        <action
-            android:id="@+id/action_meetingMainFragment_to_communityMainFragment"
-            app:destination="@id/nav_community"
-            app:enterAnim="@anim/nav_default_enter_anim"
-            app:exitAnim="@anim/nav_default_exit_anim"
-            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
-            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+            app:destination="@id/myPageFragment" />
     </fragment>
     <fragment
-        android:id="@+id/nav_my_page"
+        android:id="@+id/myPageFragment"
         android:name="com.example.protalktime.presentation.mypage.MyPageFragment"
         android:label="fragment_my_page"
         tools:layout="@layout/fragment_my_page" />
-    <fragment
-        android:id="@+id/nav_community"
-        android:name="com.example.protalktime.presentation.community.CommunityMainFragment"
-        android:label="fragment_community_main"
-        tools:layout="@layout/fragment_community_main" />
-
 </navigation>

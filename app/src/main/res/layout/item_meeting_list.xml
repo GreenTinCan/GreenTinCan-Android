@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/Base_08"
+        android:paddingStart="12dp"
+        android:paddingTop="12dp"
+        android:paddingEnd="12dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="12dp"
+            android:background="@drawable/bg_solid_white"
+            android:paddingStart="14dp"
+            android:paddingEnd="14dp"
+            android:paddingBottom="22dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/iv_user_profile"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="22dp"
+                android:background="@color/Base_07"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:shapeAppearanceOverlay="@style/CircleImageView" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tv_user_name"
+                style="@style/Text_14_Regular.Base_02"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                app:layout_constraintBottom_toTopOf="@id/tv_user_job"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/iv_user_profile"
+                app:layout_constraintTop_toTopOf="@id/iv_user_profile"
+                tools:text="윤승민" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tv_user_job"
+                style="@style/Text_12_Regular.Base_07"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginEnd="14dp"
+                android:includeFontPadding="false"
+                app:layout_constraintStart_toEndOf="@id/iv_user_profile"
+                app:layout_constraintTop_toBottomOf="@id/tv_user_name"
+                tools:text="변호사" />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/iv_divider_user_sub_info"
+                android:layout_width="2dp"
+                android:layout_height="2dp"
+                android:layout_marginStart="4dp"
+                android:background="@color/Base_07"
+                app:layout_constraintBottom_toBottomOf="@id/tv_user_job"
+                app:layout_constraintStart_toEndOf="@id/tv_user_job"
+                app:layout_constraintTop_toTopOf="@id/tv_user_job"
+                app:shapeAppearanceOverlay="@style/CircleImageView" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tv_user_sex"
+                style="@style/Text_12_Regular.Base_07"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                app:layout_constraintBottom_toBottomOf="@id/tv_user_job"
+                app:layout_constraintStart_toEndOf="@id/iv_divider_user_sub_info"
+                app:layout_constraintTop_toTopOf="@id/tv_user_job"
+                tools:text="여" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tv_recruit_title"
+                style="@style/Text_18_Bold.Base_01"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tv_user_job"
+                tools:text="(중랑천 ~ 한강 싸이클 같이 타실 분!!" />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/iv_recruit_rep"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="14dp"
+                android:scaleType="fitXY"
+                app:layout_constraintBottom_toTopOf="@id/div_recruit_section"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tv_recruit_title"
+                app:shapeAppearanceOverlay="@style/Rounding_10_per_ImageView"
+                tools:src="@drawable/img_test" />
+
+            <com.google.android.material.divider.MaterialDivider
+                android:id="@+id/div_recruit_section"
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_marginTop="14dp"
+                app:dividerColor="@color/Base_08"
+                app:layout_constraintBottom_toTopOf="@id/iv_subtitle"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/iv_recruit_rep" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/iv_subtitle"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="14dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/div_recruit_section" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tv_subtitle"
+                style="@style/Text_16_Bold.Primary_03"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                app:layout_constraintBottom_toBottomOf="@id/iv_subtitle"
+                app:layout_constraintStart_toEndOf="@id/iv_subtitle"
+                app:layout_constraintTop_toTopOf="@id/iv_subtitle"
+                app:layout_goneMarginStart="4dp"
+                tools:text="모집현황" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tv_stat_title_male"
+                style="@style/Text_14_Regular.Base_04"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:text="남성"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/iv_subtitle" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tv_stat_male_value"
+                style="@style/Text_14_Bold.Primary_03"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="6dp"
+                app:layout_constraintBottom_toBottomOf="@id/tv_stat_title_male"
+                app:layout_constraintStart_toEndOf="@id/tv_stat_title_male"
+                app:layout_constraintTop_toTopOf="@id/tv_stat_title_male"
+                tools:text="3명" />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/iv_divider_stat"
+                android:layout_width="2dp"
+                android:layout_height="2dp"
+                android:layout_marginStart="4dp"
+                android:background="@color/Primary_03"
+                app:layout_constraintBottom_toBottomOf="@id/tv_stat_title_male"
+                app:layout_constraintStart_toEndOf="@id/tv_stat_male_value"
+                app:layout_constraintTop_toTopOf="@id/tv_stat_title_male"
+                app:shapeAppearanceOverlay="@style/CircleImageView" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tv_stat_title_female"
+                style="@style/Text_14_Regular.Base_04"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:text="여성"
+                app:layout_constraintBottom_toBottomOf="@id/tv_stat_title_male"
+                app:layout_constraintStart_toEndOf="@id/iv_divider_stat"
+                app:layout_constraintTop_toTopOf="@id/tv_stat_title_male" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tv_stat_female_value"
+                style="@style/Text_14_Bold.Primary_03"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="6dp"
+                app:layout_constraintBottom_toBottomOf="@id/tv_stat_title_male"
+                app:layout_constraintStart_toEndOf="@id/tv_stat_title_female"
+                app:layout_constraintTop_toTopOf="@id/tv_stat_title_male"
+                tools:text="2명" />
+
+            <HorizontalScrollView
+                android:id="@+id/hsv_cg_club_participants"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:layout_marginEnd="-14dp"
+                android:orientation="horizontal"
+                android:scrollbars="none"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tv_stat_title_male">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.chip.ChipGroup
+                        android:id="@+id/cg_club_participants"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:selectionRequired="false"
+                        app:singleLine="true">
+
+                    </com.google.android.material.chip.ChipGroup>
+
+                </LinearLayout>
+
+            </HorizontalScrollView>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

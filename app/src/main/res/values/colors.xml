@@ -30,4 +30,7 @@
     <!-- Red Color -->
     <color name="Red_Main">#F35D5D</color>
 
+    <!-- Other -->
+    <color name="transparent">#00FFFFFF</color>
+
 </resources>

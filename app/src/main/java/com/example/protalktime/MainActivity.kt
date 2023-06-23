@@ -18,29 +18,6 @@ class MainActivity : BaseActivity<ActivityMainBinding>(R.layout.activity_main) {
         setContentView(binding.root)
 
         setNavigationBarColor(R.color.white)
-
-        binding.bnvMain.setupWithNavController(findNavController())
-        setNavigationBarVisibility()
-    }
-
-    private fun findNavController(): NavController {
-        val navHostFragment =
-            supportFragmentManager.findFragmentById(R.id.fcv_main) as NavHostFragment
-
-        return navHostFragment.navController
-    }
-
-    private fun setNavigationBarVisibility() {
-        findNavController().addOnDestinationChangedListener { _, destination, _ ->
-            binding.bnvMain.visibility =
-                when (destination.id) {
-                    R.id.nav_meeting, R.id.nav_my_page, R.id.nav_community -> View.VISIBLE
-                    else -> {
-                        setNavigationBarColor(window.navigationBarColor)
-                        View.GONE
-                    }
-                }
-        }
     }
 
 }
