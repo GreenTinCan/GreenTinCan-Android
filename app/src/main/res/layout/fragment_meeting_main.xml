@@ -35,16 +35,35 @@
                         <androidx.appcompat.widget.AppCompatTextView
                             android:id="@+id/tv_main_title"
                             style="@style/Text_18_Bold.Base_02"
-                            android:layout_width="0dp"
+                            android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginStart="18dp"
                             android:layout_marginTop="18dp"
                             android:layout_marginEnd="18dp"
                             android:text="밥 같이 먹어요!"
                             app:layout_constraintBottom_toTopOf="@id/tl_option_location"
-                            app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintStart_toStartOf="parent"
                             app:layout_constraintTop_toTopOf="parent" />
+
+                        <androidx.appcompat.widget.AppCompatImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:src="@drawable/img_3d_hamburger_1500"
+                            android:id="@+id/iv_top_title"
+                            app:layout_constraintStart_toEndOf="@id/tv_main_title"
+                            app:layout_constraintTop_toTopOf="@id/tv_main_title"
+                            app:layout_constraintBottom_toBottomOf="@id/tv_main_title"
+                            android:layout_marginStart="4dp"/>
+
+                        <androidx.appcompat.widget.AppCompatImageView
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:backgroundTint="@color/Base_02"
+                            android:src="@drawable/ic_person_24"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintTop_toTopOf="@id/tv_main_title"
+                            app:layout_constraintBottom_toBottomOf="@id/tv_main_title"
+                            android:layout_marginEnd="18dp"/>
 
                         <com.google.android.material.divider.MaterialDivider
                             android:id="@+id/div_option_section"
@@ -102,16 +121,6 @@
                             app:selectionRequired="true"
                             app:singleLine="true"
                             app:singleSelection="true">
-
-                            <com.google.android.material.chip.Chip
-                                android:id="@+id/c_book_club"
-                                style="@style/CustomFilterChipStyle"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:contentDescription="독서"
-                                android:text="#독서"
-                                app:chipCornerRadius="8dp"
-                                tools:checked="true" />
 
                         </com.google.android.material.chip.ChipGroup>
 
