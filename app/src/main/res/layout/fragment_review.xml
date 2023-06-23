@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".presentation.main.ReviewFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="18dp">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/iv_back"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/ic_arrow_back_24"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_title"
+            style="@style/Text_16_Medium.Base_02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="밥풀 후기"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_how"
+            style="@style/Text_18_Bold.Base_02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:text="오늘 밥풀 어떠셨나요?"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_title" />
+
+        <LinearLayout
+            android:id="@+id/ll_good_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toStartOf="@id/ll_bad_container"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_how">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/img_3d_good_1500" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tv_good"
+                style="@style/Text_16_Medium.Base_02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="6dp"
+                android:text="좋아요" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_bad_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/ll_good_container"
+            app:layout_constraintTop_toBottomOf="@id/tv_how">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/img_3d_bad_1500" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tv_bad"
+                style="@style/Text_16_Medium.Base_02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="6dp"
+                android:text="별로에요" />
+
+        </LinearLayout>
+
+        <com.google.android.material.divider.MaterialDivider
+            android:id="@+id/div_section"
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_marginTop="40dp"
+            app:dividerColor="@color/Base_08"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/ll_good_container" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_second_title"
+            style="@style/Text_18_Bold.Base_02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:text="만났던 밥풀러를 가장 잘 나타내는\n키워드들을 선택해 주세요"
+            android:textAlignment="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/div_section" />
+
+        <com.google.android.material.chip.ChipGroup
+            android:id="@+id/cg_emotion"
+            style="@style/Widget.Material3.Chip.Filter"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="20dp"
+            app:layout_constraintBottom_toTopOf="@id/btn_review_done"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_second_title">
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/c_good_time"
+                style="@style/CustomFilterChipStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="시간 약속을 잘 지켜요" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/c_bad_time"
+                style="@style/CustomFilterChipStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="약속 시간에 늦었어요" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/c_good_taste"
+                style="@style/CustomFilterChipStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="음식 취향이 잘 맞아요" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/c_bad_taste"
+                style="@style/CustomFilterChipStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="음식 취향이 안 맞아요" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/c_good_chat"
+                style="@style/CustomFilterChipStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="대화가 재밌었어요" />
+
+        </com.google.android.material.chip.ChipGroup>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_review_done"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/Primary_03"
+            android:padding="6dp"
+            android:text="완료"
+            android:textAppearance="@style/Text_16_Medium.Base_09"
+            app:cornerRadius="14dp"
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>
