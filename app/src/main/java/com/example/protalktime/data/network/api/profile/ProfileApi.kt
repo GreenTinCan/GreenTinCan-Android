@@ -17,6 +17,8 @@ interface ProfileApi {
     ) : ProfileResponse
 
     @GET("/member/profile")
-    suspend fun getMyProfile() : MyProfileResponse
+    suspend fun getMyProfile(
+        @Header("Authorization") profileId: Int=1
+    ) : MyProfileResponse
 
 }

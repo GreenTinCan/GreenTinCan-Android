@@ -15,7 +15,8 @@ class MyPageViewModel( private val myPageRepository: MyPageRepository) : ViewMod
 
     private val _profile: MutableLiveData<MyProfileResponseResult> =
         MutableLiveData<MyProfileResponseResult>()
-    val profile: LiveData<MyProfileResponseResult> = _profile
+    val profile: LiveData<MyProfileResponseResult>
+        get() = _profile
     init {
         Log.d("hi","FDSFs")
     }
