@@ -55,4 +55,15 @@
         <item name="cornerSizeBottomRight">10%</item>
     </style>
 
+    <!-- Number Picker Custom -->
+    <style name="NumberPickerCustomSize">
+        <!-- Divider color -->
+        <item name="colorControlNormal">@color/Primary_03</item>
+        <!--Display textSize-->
+        <item name="android:textSize">14sp</item>
+        <!--Display textColor-->
+        <item name="android:editTextColor">@color/Primary_03</item>
+        <item name="android:fontFamily">@font/noto_sans_kr_medium</item>
+    </style>
+
 </resources>

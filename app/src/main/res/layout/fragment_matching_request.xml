@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".presentation.main.MatchingRequestFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:layout_height="match_parent"
+        android:paddingStart="18dp"
+        android:paddingTop="18dp"
+        android:paddingEnd="18dp">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/iv_back_button"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/ic_arrow_back_24"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_navigation_title"
+            style="@style/Text_16_Medium.Base_02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="밥풀 찾기"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_complete_button"
+            style="@style/Text_16_Medium.Primary_03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="완료"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="30dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_navigation_title">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/tv_first_request"
+                    style="@style/Text_18_Bold.Base_02"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="밥 먹고 싶은 위치를 선택해 주세요"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_marginStart="6dp"
+                    android:src="@drawable/img_3d_location_1500"
+                    app:layout_constraintBottom_toBottomOf="@id/tv_first_request"
+                    app:layout_constraintStart_toEndOf="@id/tv_first_request"
+                    app:layout_constraintTop_toTopOf="@id/tv_first_request" />
+
+                <com.google.android.material.chip.ChipGroup
+                    android:id="@+id/cg_first_request"
+                    style="@style/Widget.Material3.Chip.Filter"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/tv_first_request"
+                    app:selectionRequired="true"
+                    app:singleLine="true"
+                    app:singleSelection="true">
+
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/c_in_university"
+                        style="@style/CustomFilterChipStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="true"
+                        android:text="교내" />
+
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/c_outside"
+                        style="@style/CustomFilterChipStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="교외" />
+
+                </com.google.android.material.chip.ChipGroup>
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/tv_second_request"
+                    style="@style/Text_18_Bold.Base_02"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="40dp"
+                    android:text="세부 위치를 선택해 주세요"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/cg_first_request" />
+
+                <com.google.android.material.chip.ChipGroup
+                    android:id="@+id/cg_second_request"
+                    style="@style/Widget.Material3.Chip.Filter"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/tv_second_request"
+                    app:selectionRequired="true"
+                    app:singleLine="true"
+                    app:singleSelection="true">
+
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/c_detail_location_first"
+                        style="@style/CustomFilterChipStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="true"
+                        android:text="후생관" />
+
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/c_detail_location_second"
+                        style="@style/CustomFilterChipStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="기숙사" />
+
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/c_detail_location_third"
+                        style="@style/CustomFilterChipStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="어문관" />
+
+                </com.google.android.material.chip.ChipGroup>
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/tv_third_request"
+                    style="@style/Text_18_Bold.Base_02"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="40dp"
+                    android:text="희망하는 음식을 선택해 주세요"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/cg_second_request" />
+
+                <com.google.android.material.chip.ChipGroup
+                    android:id="@+id/cg_third_request"
+                    style="@style/Widget.Material3.Chip.Filter"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/tv_third_request"
+                    app:selectionRequired="true"
+                    app:singleSelection="true">
+
+                </com.google.android.material.chip.ChipGroup>
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/tv_fourth_request"
+                    style="@style/Text_18_Bold.Base_02"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="40dp"
+                    android:text="희망하는 음식이 있다면 작성해 주세요"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/cg_third_request" />
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/et_fourth_request"
+                    style="@style/Text_14_Regular.Base_02"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/bg_solid_gray"
+                    android:hint="ex. 국물이 있는 찌개, 매운 음식"
+                    android:padding="16dp"
+                    android:textColorHint="@color/Base_05"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/tv_fourth_request" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/tv_fifth_request"
+                    style="@style/Text_18_Bold.Base_02"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="40dp"
+                    android:text="밥약 시간"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/et_fourth_request" />
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_marginStart="6dp"
+                    android:src="@drawable/img_3d_calendar_1500"
+                    app:layout_constraintBottom_toBottomOf="@id/tv_fifth_request"
+                    app:layout_constraintStart_toEndOf="@id/tv_fifth_request"
+                    app:layout_constraintTop_toTopOf="@id/tv_fifth_request" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/tv_month_title"
+                    style="@style/Text_14_Regular.Base_05"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="월"
+                    app:layout_constraintEnd_toEndOf="@id/np_month"
+                    app:layout_constraintStart_toStartOf="@id/np_month"
+                    app:layout_constraintTop_toBottomOf="@id/tv_fifth_request" />
+
+                <NumberPicker
+                    android:id="@+id/np_month"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:scrollbars="vertical"
+                    android:theme="@style/NumberPickerCustomSize"
+                    app:layout_constraintEnd_toStartOf="@id/np_day"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/tv_month_title" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/tv_day_title"
+                    style="@style/Text_14_Regular.Base_05"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="일"
+                    app:layout_constraintEnd_toEndOf="@id/np_day"
+                    app:layout_constraintStart_toStartOf="@id/np_day"
+                    app:layout_constraintTop_toBottomOf="@id/tv_fifth_request" />
+
+                <NumberPicker
+                    android:id="@+id/np_day"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="6dp"
+                    android:scrollbars="vertical"
+                    android:theme="@style/NumberPickerCustomSize"
+                    app:layout_constraintEnd_toStartOf="@id/np_hour"
+                    app:layout_constraintStart_toEndOf="@id/np_month"
+                    app:layout_constraintTop_toBottomOf="@id/tv_day_title" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/tv_hours_title"
+                    style="@style/Text_14_Regular.Base_05"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="시"
+                    app:layout_constraintEnd_toEndOf="@id/np_hour"
+                    app:layout_constraintStart_toStartOf="@id/np_hour"
+                    app:layout_constraintTop_toBottomOf="@id/tv_fifth_request" />
+
+                <NumberPicker
+                    android:id="@+id/np_hour"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="6dp"
+                    android:scrollbars="vertical"
+                    android:theme="@style/NumberPickerCustomSize"
+                    app:layout_constraintEnd_toStartOf="@id/np_minute"
+                    app:layout_constraintStart_toEndOf="@id/np_day"
+                    app:layout_constraintTop_toBottomOf="@id/tv_hours_title" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/tv_minutes_title"
+                    style="@style/Text_14_Regular.Base_05"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="분"
+                    app:layout_constraintEnd_toEndOf="@id/np_minute"
+                    app:layout_constraintStart_toStartOf="@id/np_minute"
+                    app:layout_constraintTop_toBottomOf="@id/tv_fifth_request" />
+
+                <NumberPicker
+                    android:id="@+id/np_minute"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="6dp"
+                    android:scrollbars="vertical"
+                    android:theme="@style/NumberPickerCustomSize"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@id/np_hour"
+                    app:layout_constraintTop_toBottomOf="@id/tv_hours_title" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/tv_sixth_request"
+                    style="@style/Text_18_Bold.Base_02"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="40dp"
+                    android:text="희망하는 가격대를 입력해 주세요"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/np_day" />
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_marginStart="6dp"
+                    android:src="@drawable/img_3d_money_1500"
+                    app:layout_constraintBottom_toBottomOf="@id/tv_sixth_request"
+                    app:layout_constraintStart_toEndOf="@id/tv_sixth_request"
+                    app:layout_constraintTop_toTopOf="@id/tv_sixth_request" />
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/et_money"
+                    style="@style/Text_14_Regular.Base_02"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/bg_solid_gray"
+                    android:hint="숫자로 입력해 주세요"
+                    android:padding="16dp"
+                    android:textColorHint="@color/Base_05"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/tv_sixth_request" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/tv_seventh_request"
+                    style="@style/Text_18_Bold.Base_02"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="40dp"
+                    android:text="기타 특이사항을 입력해 주세요"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/et_money" />
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    style="@style/Text_14_Regular.Base_02"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/bg_solid_gray"
+                    android:hint="ex. 정문 앞에서 만나요!"
+                    android:padding="16dp"
+                    android:textColorHint="@color/Base_05"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/tv_seventh_request" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        </androidx.core.widget.NestedScrollView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>
