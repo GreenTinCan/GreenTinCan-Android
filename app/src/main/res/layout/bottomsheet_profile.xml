@@ -1,86 +1,96 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
+
     <data>
+
         <import type="android.view.View" />
+
         <import type="com.example.protalktime.R" />
-        <variable
-            name="viewModel"
-            type="com.example.protalktime.presentation.mypage.viewmodel.MyPageViewModel" />
+
+    <variable
+        name="viewModel"
+        type="com.example.protalktime.data.model.profile.ProfileResponseResult" />
     </data>
+
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:background="@drawable/bg_bottom_sheet"
-        android:paddingHorizontal="27dp">
-    <com.google.android.material.imageview.ShapeableImageView
-        android:id="@+id/iv_profile"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_marginTop="26dp"
-        app:fallbackImage="@{R.drawable.ic_person_24}"
-        app:imageUrl="@{viewModel.image}"
-        android:scaleType="centerCrop"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:shapeAppearance="@style/CircleImageView" />
+
+        android:paddingBottom="40dp">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/iv_profile"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="26dp"
+            android:scaleType="centerCrop"
+           setImageUrl="@{viewModel.memberProfileUrl}"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:shapeAppearance="@style/CircleImageView" />
 
         <androidx.appcompat.widget.AppCompatTextView
             android:id="@+id/tv_profile_nickname"
-            android:layout_marginTop="10dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="밥묵자고"
             style="@style/Text_16_Bold.Base_02"
-            app:layout_constraintStart_toStartOf="@id/iv_profile"
-            app:layout_constraintEnd_toEndOf="@id/iv_profile"
-            app:layout_constraintTop_toBottomOf="@id/iv_profile" />
-        <androidx.appcompat.widget.AppCompatTextView
-            android:layout_marginTop="10dp"
-            android:id="@+id/tv_profile_student_num"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="18학번"
-            style="@style/Text_14_Medium.Base_05"
-            app:layout_constraintStart_toStartOf="@id/tv_profile_nickname"
-            app:layout_constraintEnd_toStartOf="@id/tv_profile_gender"
-            app:layout_constraintTop_toBottomOf="@id/tv_profile_nickname" />
+            android:layout_marginTop="10dp"
+            android:text="@{viewModel.nickName}"
+            app:layout_constraintEnd_toEndOf="@id/iv_profile"
+            app:layout_constraintStart_toStartOf="@id/iv_profile"
+            app:layout_constraintTop_toBottomOf="@id/iv_profile" />
+
         <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_profile_student_num"
+            style="@style/Text_14_Medium.Base_05"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text='@{String.valueOf(viewModel.studentNum)+"학번"}'
+            app:layout_constraintEnd_toStartOf="@id/tv_profile_gender"
+            app:layout_constraintStart_toStartOf="@id/tv_profile_nickname"
+            app:layout_constraintTop_toBottomOf="@id/tv_profile_nickname" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_profile_gender"
+            style="@style/Text_14_Medium.Base_05"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_marginStart="15dp"
             android:layout_marginTop="10dp"
-            android:id="@+id/tv_profile_gender"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="여"
-            style="@style/Text_14_Medium.Base_05"
-            app:layout_constraintStart_toEndOf="@id/tv_profile_student_num"
+            android:text='@{viewModel.sex}'
             app:layout_constraintEnd_toEndOf="@id/tv_profile_nickname"
+            app:layout_constraintStart_toEndOf="@id/tv_profile_student_num"
             app:layout_constraintTop_toBottomOf="@id/tv_profile_nickname" />
+
         <androidx.appcompat.widget.AppCompatImageView
-            android:layout_marginTop="20dp"
             android:id="@+id/iv_reputaion_header"
             android:layout_width="37dp"
             android:layout_height="37dp"
+            android:layout_marginTop="20dp"
             android:src="@drawable/ic_check_37"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/tv_profile_gender" />
+
         <androidx.appcompat.widget.AppCompatTextView
-            android:layout_marginStart="15dp"
             android:id="@+id/tv_reputaion_header"
+            style="@style/Text_16_Regular.Base_01"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
             android:text="@string/profile_reputation_title"
-            style="@style/Text_16_Regular.Base_01"
-            app:layout_constraintTop_toTopOf="@id/iv_reputaion_header"
             app:layout_constraintBottom_toBottomOf="@id/iv_reputaion_header"
             app:layout_constraintStart_toEndOf="@id/iv_reputaion_header"
-            />
+            app:layout_constraintTop_toTopOf="@id/iv_reputaion_header" />
+
         <com.google.android.material.chip.ChipGroup
             android:id="@+id/cg_reputations"
             style="@style/Widget.Material3.Chip.Filter"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="0dp"
             android:layout_marginVertical="12dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -88,56 +98,61 @@
             app:selectionRequired="true"
             app:singleLine="true"
             app:singleSelection="true">
+
             <com.google.android.material.chip.Chip
-                android:id="@+id/c_reputations"
+                android:id="@+id/c_reputation_good_time"
+                style="@style/CustomFilterGrayChipStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:checkable="false"
+                android:text="시간 약속을 잘 지켜요"
                 app:chipCornerRadius="8dp"
-                app:chipMinHeight="40dp"
-                style="@style/CustomFilterGrayChipStyle"
-                android:text="시간 약속을 잘 지켜요" />
+                app:chipMinHeight="40dp" />
+
         </com.google.android.material.chip.ChipGroup>
 
         <androidx.appcompat.widget.AppCompatImageView
-            android:layout_marginTop="20dp"
             android:id="@+id/iv_food_header"
             android:layout_width="37dp"
             android:layout_height="37dp"
+            android:layout_marginTop="20dp"
             android:src="@drawable/ic_food_37"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/cg_reputations" />
+
         <androidx.appcompat.widget.AppCompatTextView
-            android:layout_marginStart="15dp"
             android:id="@+id/tv_food_header"
+            style="@style/Text_16_Regular.Base_01"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
             android:text="@string/profile_food_title"
-            style="@style/Text_16_Regular.Base_01"
-            app:layout_constraintTop_toTopOf="@id/iv_food_header"
             app:layout_constraintBottom_toBottomOf="@id/iv_food_header"
             app:layout_constraintStart_toEndOf="@id/iv_food_header"
-            />
+            app:layout_constraintTop_toTopOf="@id/iv_food_header" />
+
         <com.google.android.material.chip.ChipGroup
             android:id="@+id/cg_food"
             style="@style/Widget.Material3.Chip.Filter"
+
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="0dp"
             android:layout_marginVertical="12dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/tv_food_header"
-            app:selectionRequired="true"
-            app:singleLine="true"
-            app:singleSelection="true">
+            app:singleLine="true">
+
             <com.google.android.material.chip.Chip
                 android:id="@+id/c_food"
+                style="@style/CustomFilterGrayChipStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                app:chipCornerRadius="8dp"
-                app:chipMinHeight="40dp"
-                style="@style/CustomFilterGrayChipStyle"
                 android:checked="true"
-                android:text="시간 약속을 잘 지켜요" />
+                app:chipIcon="@drawable/ic_allergy_20"
+                android:text="시간 약속을 잘 지켜요"
+                app:chipCornerRadius="8dp"
+                app:chipMinHeight="40dp" />
         </com.google.android.material.chip.ChipGroup>
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>

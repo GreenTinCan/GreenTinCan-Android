@@ -9,10 +9,17 @@ data class ProfileResponse(
     @SerializedName("body")
     val body: ProfileResponseResult
 )
+data class MyProfileResponse(
+    @SerializedName("header")
+    val header: Header,
+    @SerializedName("body")
+    val body: MyProfileResponseResult
+)
 data class ProfileResponseResult(
     @SerializedName("id")
     val id: Int,
-
+    @SerializedName("memberProfileUrl")
+    val memberProfileUrl: String,
     @SerializedName("nickName")
     val nickName: String,
 
@@ -23,12 +30,43 @@ data class ProfileResponseResult(
     val studentNum: Int,
 
     @SerializedName("allergy")
-    val allergy: List<Int>,
+    val allergy: List<String>,
     @SerializedName("favor")
-    val favor: List<Int>,
+    val favor: List<String>,
     @SerializedName("nonFavor")
-    val nonFavor: List<Int>,
+    val nonFavor: List<String>,
 
+    @SerializedName("rating")
+    val rating: List<String>,
+
+)
+data class MyProfileResponseResult(
+    @SerializedName("id")
+    val id: Int,
+    @SerializedName("memberProfileUrl")
+    val memberProfileUrl: String,
+    @SerializedName("nickName")
+    val nickName: String,
+
+    @SerializedName("sex")
+    val sex: String,
+
+    @SerializedName("studentNum")
+    val studentNum: Int,
+
+    @SerializedName("allergy")
+    val allergy: List<String>,
+    @SerializedName("favor")
+    val favor: List<String>,
+    @SerializedName("nonFavor")
+    val nonFavor: List<String>,
+
+    @SerializedName("rating")
+    val rating: List<String>,
+    @SerializedName("good")
+    val good: Int,
+    @SerializedName("bad")
+    val bad: Int,
     @SerializedName("goodTime")
     val goodTime: Int,
     @SerializedName("badTime")
@@ -39,4 +77,6 @@ data class ProfileResponseResult(
     val badTaste: Int,
     @SerializedName("funny")
     val funny: Int,
-}
+)
+
+
