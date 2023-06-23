@@ -39,6 +39,9 @@ class MatchingMainFragment : BaseFragment<FragmentMeetingMainBinding>(R.layout.f
                 submitList(matchingList)
             })
         }
+        binding.ivUserProfile.setOnClickListener{
+            navigate(R.id.action_meetingMainFragment_to_myPageFragment)
+        }
     }
 
     private fun handleSelectedLocationOption() {

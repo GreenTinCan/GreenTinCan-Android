@@ -81,6 +81,7 @@
         <item name="android:textSize">12sp</item>
     </style>
 
+
     <style name="Text_14_Regular" parent="FontWeight_3_Regular">
         <item name="android:textSize">14sp</item>
     </style>
