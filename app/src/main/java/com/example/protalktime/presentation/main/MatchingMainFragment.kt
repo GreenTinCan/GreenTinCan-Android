@@ -5,6 +5,7 @@ import android.view.View
 import com.example.protalktime.R
 import com.example.protalktime.databinding.FragmentMeetingMainBinding
 import com.example.protalktime.presentation.common.BaseFragment
+import com.example.protalktime.presentation.common.NavigationUtil.navigate
 import com.example.protalktime.presentation.common.WindowUtil.setStatusBarColor
 import com.example.protalktime.util.Constants
 import com.google.android.material.chip.Chip
@@ -17,6 +18,10 @@ class MatchingMainFragment : BaseFragment<FragmentMeetingMainBinding>(R.layout.f
         super.onViewCreated(view, savedInstanceState)
 
         setStatusBarColor(R.color.transparent)
+
+        binding.fabCreateClub.setOnClickListener {
+            navigate(R.id.action_meetingMainFragment_to_matchingRequestFragment)
+        }
 
         setChipGroup("교내")
         handleSelectedLocationOption()
