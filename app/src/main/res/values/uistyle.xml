@@ -37,6 +37,42 @@
         <item name="minHeight">44dp</item>
         <item name="rippleColor">@color/transparent</item>
     </style>
+    <style name="ImageWithChipAllergy" parent="@style/Widget.Material3.Chip.Assist">
+        <item name="chipBackgroundColor">@color/Base_08</item>
+        <item name="android:textColor">@color/Primary_03</item>
+        <item name="android:textAppearance">@style/Text_12_Regular</item>
+        <item name="checkedIconEnabled">false</item>
+        <item name="checkedIcon">@null</item>
+        <item name="chipIcon">@drawable/ic_allergy_20</item>
+        <item name="chipIconEnabled">true</item>
+        <item name="android:selectable">false</item>
+        <item name="minHeight">44dp</item>
+        <item name="rippleColor">@color/transparent</item>
+    </style>
+    <style name="ImageWithChipFavor" parent="@style/Widget.Material3.Chip.Assist">
+        <item name="chipBackgroundColor">@color/Base_08</item>
+        <item name="android:textColor">@color/Primary_03</item>
+        <item name="android:textAppearance">@style/Text_12_Regular</item>
+        <item name="checkedIconEnabled">false</item>
+        <item name="checkedIcon">@null</item>
+        <item name="chipIcon">@drawable/ic_favor_20</item>
+        <item name="chipIconEnabled">true</item>
+        <item name="android:selectable">false</item>
+        <item name="minHeight">44dp</item>
+        <item name="rippleColor">@color/transparent</item>
+    </style>
+    <style name="ImageWithChipNonFavor" parent="@style/Widget.Material3.Chip.Assist">
+        <item name="chipBackgroundColor">@color/Base_08</item>
+        <item name="android:textColor">@color/Primary_03</item>
+        <item name="android:textAppearance">@style/Text_12_Regular</item>
+        <item name="checkedIconEnabled">false</item>
+        <item name="checkedIcon">@null</item>
+        <item name="chipIcon">@drawable/ic_nonfavor_20</item>
+        <item name="chipIconEnabled">true</item>
+        <item name="android:selectable">false</item>
+        <item name="minHeight">44dp</item>
+        <item name="rippleColor">@color/transparent</item>
+    </style>
 
     <!-- Shapeable Image Corner -->
     <style name="CircleImageView" parent="">

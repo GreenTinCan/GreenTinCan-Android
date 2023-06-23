@@ -44,6 +44,17 @@ object BindingAdapter {
             view.text = it.substring(5,10) + " / " + it.substring(11, 13) + "시 " + it.substring(14,16) + "분"
         }
     }
+    @JvmStatic
+    @BindingAdapter("sex")
+    fun setSex(view: TextView, value: String?) {
+        value?.let {
+           if(it=="female"){
+               view.text = "여"
+           }else{
+               view.text= "남"
+           }
+        }
+    }
 
     @JvmStatic
     @BindingAdapter("recommendCount")
