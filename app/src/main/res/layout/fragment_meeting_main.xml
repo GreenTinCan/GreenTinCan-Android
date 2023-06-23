@@ -2,7 +2,7 @@
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context=".presentation.meeting.MeetingMainFragment">
+    tools:context=".presentation.main.MatchingMainFragment">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -33,24 +33,14 @@
                         android:background="@color/white">
 
                         <androidx.appcompat.widget.AppCompatTextView
-                            android:id="@+id/et_search_bar"
-                            style="@style/Text_14_Regular.Base_02"
+                            android:id="@+id/tv_main_title"
+                            style="@style/Text_18_Bold.Base_02"
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             android:layout_marginStart="18dp"
                             android:layout_marginTop="18dp"
                             android:layout_marginEnd="18dp"
-                            android:background="@drawable/bg_solid_gray"
-                            android:drawableStart="@drawable/ic_search_24"
-                            android:drawablePadding="10dp"
-                            android:gravity="center_vertical"
-                            android:hint="@string/meeting_search_bar_hint"
-                            android:imeOptions="actionSearch"
-                            android:inputType="text"
-                            android:maxLines="1"
-                            android:padding="8dp"
-                            android:paddingStart="18dp"
-                            android:textColorHint="@color/Base_07"
+                            android:text="밥 같이 먹어요!"
                             app:layout_constraintBottom_toTopOf="@id/tl_option_location"
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintStart_toStartOf="parent"
@@ -74,7 +64,7 @@
                             android:background="@color/white"
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintStart_toStartOf="parent"
-                            app:layout_constraintTop_toBottomOf="@id/et_search_bar"
+                            app:layout_constraintTop_toBottomOf="@id/tv_main_title"
                             app:tabIndicatorColor="@color/Primary_03"
                             app:tabIndicatorFullWidth="true"
                             app:tabMode="scrollable"
@@ -87,43 +77,13 @@
                                 style="@style/Text_14_Regular.Base_02"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="광진구" />
+                                android:text="교내" />
 
                             <com.google.android.material.tabs.TabItem
                                 style="@style/Text_14_Regular.Base_02"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="강남구" />
-
-                            <com.google.android.material.tabs.TabItem
-                                style="@style/Text_14_Regular.Base_02"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:text="서초구" />
-
-                            <com.google.android.material.tabs.TabItem
-                                style="@style/Text_14_Regular.Base_02"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:text="노원구" />
-
-                            <com.google.android.material.tabs.TabItem
-                                style="@style/Text_14_Regular.Base_02"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:text="양천구" />
-
-                            <com.google.android.material.tabs.TabItem
-                                style="@style/Text_14_Regular.Base_02"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:text="강서구" />
-
-                            <com.google.android.material.tabs.TabItem
-                                style="@style/Text_14_Regular.Base_02"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:text="강동구" />
+                                android:text="교외" />
 
                         </com.google.android.material.tabs.TabLayout>
 
@@ -153,24 +113,6 @@
                                 app:chipCornerRadius="8dp"
                                 tools:checked="true" />
 
-                            <com.google.android.material.chip.Chip
-                                android:id="@+id/c_sports_club"
-                                style="@style/CustomFilterChipStyle"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:contentDescription="스포츠"
-                                android:text="#스포츠"
-                                app:chipCornerRadius="8dp" />
-
-                            <com.google.android.material.chip.Chip
-                                android:id="@+id/c_art_club"
-                                style="@style/CustomFilterChipStyle"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:contentDescription="예술 및 공연 관람"
-                                android:text="#예술 및 공연 관람"
-                                app:chipCornerRadius="8dp" />
-
                         </com.google.android.material.chip.ChipGroup>
 
                     </androidx.constraintlayout.widget.ConstraintLayout>
@@ -180,7 +122,7 @@
             </com.google.android.material.appbar.AppBarLayout>
 
             <androidx.recyclerview.widget.RecyclerView
-                android:id="@+id/rv_search_result_container"
+                android:id="@+id/rv_matching"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="@color/Base_08"

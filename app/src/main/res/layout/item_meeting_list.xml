@@ -121,7 +121,6 @@
                 android:layout_width="30dp"
                 android:layout_height="30dp"
                 android:layout_marginTop="14dp"
-                android:src="@drawable/img_3d_squares_1500"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/div_recruit_section" />
 
