@@ -12,7 +12,8 @@
     <androidx.appcompat.widget.LinearLayoutCompat
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginHorizontal="20dp"
+        android:paddingHorizontal="20dp"
+        android:paddingTop="20dp"
         android:orientation="vertical">
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
@@ -117,6 +118,15 @@
             android:text="시간 약속을 잘 지켜요"
             app:chipCornerRadius="8dp"
             app:chipMinHeight="40dp" />
+        <com.google.android.material.chip.Chip
+            android:id="@+id/c_reputation_funny"
+            style="@style/CustomFilterGrayChipStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checkable="false"
+            android:text="대화가 재밌었어요"
+            app:chipCornerRadius="8dp"
+            app:chipMinHeight="40dp" />
 
     </com.google.android.material.chip.ChipGroup>
 </androidx.constraintlayout.widget.ConstraintLayout>
@@ -157,16 +167,34 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/tv_food_header"
-                app:singleLine="true">
+                app:singleLine="false">
 
                 <com.google.android.material.chip.Chip
                     android:id="@+id/c_food"
-                    style="@style/CustomFilterGrayChipStyle"
+                    style="@style/ImageWithChipAllergy"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:checked="true"
                     app:chipIcon="@drawable/ic_allergy_20"
-                    android:text="시간 약속을 잘 지켜요"
+                    android:text="@{viewModel.allergy[0]}"
+                    app:chipCornerRadius="8dp"
+                    app:chipMinHeight="40dp" />
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/c_food_favor"
+                    style="@style/ImageWithChipFavor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checkable="false"
+                    android:text="@{viewModel.favor[0]}"
+                    app:chipCornerRadius="8dp"
+                    app:chipMinHeight="40dp" />
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/c_food_nonfavor"
+                    style="@style/ImageWithChipNonFavor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checkable="false"
+                    android:text="@{viewModel.favor[0]}"
                     app:chipCornerRadius="8dp"
                     app:chipMinHeight="40dp" />
             </com.google.android.material.chip.ChipGroup>
