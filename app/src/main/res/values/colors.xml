@@ -32,5 +32,5 @@
 
     <!-- Other -->
     <color name="transparent">#00FFFFFF</color>
-
+    <color name="snack_bar_background">#6E7176</color>
 </resources>

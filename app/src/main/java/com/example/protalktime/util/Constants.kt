@@ -1,8 +1,12 @@
 package com.example.protalktime.util
 
+import com.example.protalktime.data.model.meeting.MatchingCreateResponseBody
+
 object Constants {
 
     val userInfo = UserInfo("1")
+    var isMatchingCreated = false
+    var currentCreatedMatching: MatchingCreateResponseBody? = null
 
     // 매칭 메인 페이지 칩 그룹 관련 칩셋
     val chipSetByInUniversity = listOf(
