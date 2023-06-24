@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <data>
+        <variable
+            name="waiting"
+            type="com.example.protalktime.data.model.profile.MyWaitingList" />
+    </data>
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/iv_user_profile"
+            setImageUrl="@{waiting.friendProfileUrl}"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="22dp"
+            android:background="@color/Base_07"
+            android:scaleType="centerCrop" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_user_name"
+            style="@style/Text_14_Regular.Base_02"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:text="@{waiting.friendNickName}"
+            android:layout_marginEnd="78dp"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/bt_waiting_grant"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/Primary_03"
+            style="@style/Text_12_Bold.Base_09"
+            android:paddingVertical="10dp"
+            android:paddingHorizontal="10dp"
+            android:text="수락"/>
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/bt_waiting_reject"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/Red_Main"
+            style="@style/Text_12_Bold.Base_09"
+            android:paddingVertical="10dp"
+            android:paddingHorizontal="10dp"
+            android:text="거절" />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</layout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "587527377348",
+    "project_id": "bobfull-5df13",
+    "storage_bucket": "bobfull-5df13.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:587527377348:android:69899f2622f4db0926d491",
+        "android_client_info": {
+          "package_name": "com.example.protalktime"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "587527377348-l1lt6mrp6ipa8k8cqjmh6h3srml7t3am.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWNpaLxWobO4Rb1iswmKmqquAa_f3GzJ8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "587527377348-l1lt6mrp6ipa8k8cqjmh6h3srml7t3am.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

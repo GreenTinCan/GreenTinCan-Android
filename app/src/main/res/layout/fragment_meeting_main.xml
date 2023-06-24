@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".presentation.main.MatchingMainFragment">
+    <data>
+        <variable
+            name="matchingInfo"
+            type="com.example.protalktime.data.model.meeting.MatchingListBody" />
+    </data>
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <androidx.coordinatorlayout.widget.CoordinatorLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <com.google.android.material.appbar.AppBarLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="-18dp">
+
+                <com.google.android.material.appbar.MaterialToolbar
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:layout_scrollEffect="compress"
+                    app:layout_scrollFlags="scroll|enterAlways">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white">
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:id="@+id/tv_main_title"
+                            style="@style/Text_18_Bold.Base_02"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="18dp"
+                            android:layout_marginTop="18dp"
+                            android:layout_marginEnd="18dp"
+                            android:text="밥 같이 먹어요!"
+                            app:layout_constraintBottom_toTopOf="@id/tl_option_location"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <androidx.appcompat.widget.AppCompatImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:src="@drawable/img_3d_hamburger_1500"
+                            android:id="@+id/iv_top_title"
+                            app:layout_constraintStart_toEndOf="@id/tv_main_title"
+                            app:layout_constraintTop_toTopOf="@id/tv_main_title"
+                            app:layout_constraintBottom_toBottomOf="@id/tv_main_title"
+                            android:layout_marginStart="4dp"/>
+
+                        <androidx.appcompat.widget.AppCompatImageView
+                            android:id="@+id/iv_user_profile"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:backgroundTint="@color/Base_02"
+                            android:src="@drawable/ic_person_24"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintTop_toTopOf="@id/tv_main_title"
+                            app:layout_constraintBottom_toBottomOf="@id/tv_main_title"
+                            android:layout_marginEnd="18dp"/>
+
+                        <com.google.android.material.divider.MaterialDivider
+                            android:id="@+id/div_option_section"
+                            android:layout_width="0dp"
+                            android:layout_height="1dp"
+                            app:dividerColor="@color/Base_08"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@id/tl_option_location" />
+
+                        <com.google.android.material.tabs.TabLayout
+                            android:id="@+id/tl_option_location"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginTop="10dp"
+                            android:background="@color/white"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@id/tv_main_title"
+                            app:tabIndicatorColor="@color/Primary_03"
+                            app:tabIndicatorFullWidth="true"
+                            app:tabMode="scrollable"
+                            app:tabRippleColor="@color/transparent"
+                            app:tabSelectedTextAppearance="@style/Text_14_Medium"
+                            app:tabSelectedTextColor="@color/Primary_03"
+                            app:tabTextAppearance="@style/Text_14_Regular.Base_02">
+
+                            <com.google.android.material.tabs.TabItem
+                                style="@style/Text_14_Regular.Base_02"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="교내" />
+
+                            <com.google.android.material.tabs.TabItem
+                                style="@style/Text_14_Regular.Base_02"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="교외" />
+
+                        </com.google.android.material.tabs.TabLayout>
+
+                        <com.google.android.material.chip.ChipGroup
+                            android:id="@+id/cg_search_category_group"
+                            style="@style/Widget.Material3.Chip.Filter"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="18dp"
+                            android:layout_marginTop="4dp"
+                            android:layout_marginEnd="18dp"
+                            android:layout_marginBottom="4dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@id/tl_option_location"
+                            app:selectionRequired="true"
+                            app:singleLine="true"
+                            app:singleSelection="true">
+
+                        </com.google.android.material.chip.ChipGroup>
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </com.google.android.material.appbar.MaterialToolbar>
+
+            </com.google.android.material.appbar.AppBarLayout>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rv_matching"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/Base_08"
+                android:orientation="vertical"
+                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                tools:listitem="@layout/item_meeting_list" />
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/fab_create_club"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|end"
+                android:layout_marginEnd="18dp"
+                android:layout_marginBottom="18dp"
+                android:background="@color/Primary_09"
+                android:contentDescription="모임 모집글을 작성할 수 있는 버튼"
+                android:shadowColor="@color/Base_07"
+                android:src="@drawable/ic_create_24" />
+
+        </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <include
+        android:visibility="visible"
+        android:id="@+id/container_notification"
+        layout="@layout/container_progress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        matchingInfo = "@{matchingInfo}" />
+</FrameLayout>
+</layout>
