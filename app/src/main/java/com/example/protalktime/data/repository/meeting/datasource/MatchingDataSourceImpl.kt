@@ -22,7 +22,12 @@ class MatchingDataSourceImpl(private val matchingApi: MatchingApi): MatchingData
     ): MatchingCreateResponse {
         return matchingApi.requestMatchingCreation(authorization, requestBody)
     }
+
     override suspend fun getMyMatching(): MyMatchingResponse {
         return matchingApi.getMyMatching()
+    }
+
+    override suspend fun joinMeeting(gatherId:Int):MyMatchingResponse{
+        return matchingApi.joinMeeting(gatherId)
     }
 }

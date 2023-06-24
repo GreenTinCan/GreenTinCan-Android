@@ -2,7 +2,9 @@ package com.example.protalktime.presentation.main
 
 import android.os.Bundle
 import android.view.View
+import android.widget.TextView
 import com.example.protalktime.R
+import com.example.protalktime.data.repository.meeting.MatchingRepository
 import com.example.protalktime.presentation.main.viewmodel.MatchingViewModel
 import com.example.protalktime.databinding.FragmentMeetingMainBinding
 import com.example.protalktime.presentation.common.BaseFragment
@@ -35,6 +37,9 @@ class MatchingMainFragment : BaseFragment<FragmentMeetingMainBinding>(R.layout.f
             navigate(R.id.action_meetingMainFragment_to_matchingRequestFragment)
         }
         matchingViewModel.myMatching.observe(viewLifecycleOwner) { myMatching ->
+            if(myMatching == null){
+                binding.containerNotification.root.visibility == View.INVISIBLE
+            }
              binding.matchingInfo = myMatching
         }
 
@@ -43,9 +48,11 @@ class MatchingMainFragment : BaseFragment<FragmentMeetingMainBinding>(R.layout.f
                 submitList(matchingList)
             })
         }
+
         binding.ivUserProfile.setOnClickListener{
             navigate(R.id.action_meetingMainFragment_to_myPageFragment)
         }
+//        val textView = DataBinidngUtil<TextView>(R.id.bt_waiting_grant)
     }
 
     private fun handleSelectedLocationOption() {

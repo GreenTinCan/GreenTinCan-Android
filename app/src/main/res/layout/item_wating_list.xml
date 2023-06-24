@@ -31,11 +31,19 @@
             android:id="@+id/bt_waiting_grant"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:background="@color/Primary_03"
+            style="@style/Text_12_Bold.Base_09"
+            android:paddingVertical="10dp"
+            android:paddingHorizontal="10dp"
             android:text="수락"/>
         <androidx.appcompat.widget.AppCompatTextView
             android:id="@+id/bt_waiting_reject"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:background="@color/Red_Main"
+            style="@style/Text_12_Bold.Base_09"
+            android:paddingVertical="10dp"
+            android:paddingHorizontal="10dp"
             android:text="거절" />
 
     </androidx.appcompat.widget.LinearLayoutCompat>

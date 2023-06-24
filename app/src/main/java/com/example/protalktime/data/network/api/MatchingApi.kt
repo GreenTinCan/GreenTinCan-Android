@@ -29,4 +29,13 @@ interface MatchingApi {
     suspend fun getMyMatching(
         @Header("Authorization") authorization: String = Constants.userInfo.authorization,
     ): MyMatchingResponse
+    @GET("/gather/proposal/join")
+    suspend fun joinMeeting(
+        @Header("gatherId") gatherId:Int,
+    ): MyMatchingResponse
+
+//    @GET("/member/firend")
+//    suspend fun getMyMatchingList(
+//        @Header("Authorization") authorization: String = Constants.userInfo.authorization,
+//    ): MyMatchingResponse
 }

@@ -26,6 +26,7 @@ class MatchingViewModel(private val repository: MatchingRepository): ViewModel()
     val createMatchingResponse: LiveData<Event<MatchingCreateResponseBody>>
         get() = _createMatchingResponse
 
+
     fun getMatchingList(authorization: String, bigLocation: String, smallLocation: String) {
         viewModelScope.launch {
             try {
@@ -53,6 +54,7 @@ class MatchingViewModel(private val repository: MatchingRepository): ViewModel()
         }
     }
 
+
     fun requestMatchingCreation(authorization: String, requestBody: MatchingCreateRequest) {
         viewModelScope.launch {
             try {
@@ -66,4 +68,17 @@ class MatchingViewModel(private val repository: MatchingRepository): ViewModel()
             }
         }
     }
+    fun joinMeeting(gatherId:Int) {
+        viewModelScope.launch {
+            try {
+                val response = repository.joinMeeting(gatherId)
+                if(response.header.status == 200) {
+                    Timber.d("매칭  요청 성공 ${response.body}")
+                }
+            } catch (e: Throwable) {
+                Timber.d("매칭 요청 실패")
+            }
+        }
+    }
+
 }

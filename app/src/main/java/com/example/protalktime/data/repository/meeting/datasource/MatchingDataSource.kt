@@ -9,4 +9,6 @@ interface MatchingDataSource {
     suspend fun getMatchingList(authorization: String, bigLocation: String, smallLocation: String): MatchingListResponse
     suspend fun requestMatchingCreation(authorization: String, requestBody: MatchingCreateRequest): MatchingCreateResponse
     suspend fun getMyMatching():MyMatchingResponse
+    suspend fun joinMeeting(gatherId:Int):MyMatchingResponse
+
 }

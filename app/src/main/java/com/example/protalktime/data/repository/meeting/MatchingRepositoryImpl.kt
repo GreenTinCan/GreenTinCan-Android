@@ -26,4 +26,7 @@ class MatchingRepositoryImpl(private val dataSource: MatchingDataSource) : Match
     override suspend fun getMyMatching(): MyMatchingResponse {
         return dataSource.getMyMatching()
     }
+    override suspend fun joinMeeting(gatherId:Int):MyMatchingResponse{
+        return dataSource.joinMeeting(gatherId)
+    }
 }
