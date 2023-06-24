@@ -29,9 +29,13 @@ class MatchingMainFragment : BaseFragment<FragmentMeetingMainBinding>(R.layout.f
         handleSelectedLocationOption()
 
         matchingViewModel.getMatchingList(Constants.userInfo.authorization, "교내", "후생관")
+        matchingViewModel.getMyMatchingList()
 
         binding.fabCreateClub.setOnClickListener {
             navigate(R.id.action_meetingMainFragment_to_matchingRequestFragment)
+        }
+        matchingViewModel.myMatching.observe(viewLifecycleOwner) { myMatching ->
+             binding.matchingInfo = myMatching
         }
 
         binding.rvMatching.adapter = MatchingListAdapter().apply {

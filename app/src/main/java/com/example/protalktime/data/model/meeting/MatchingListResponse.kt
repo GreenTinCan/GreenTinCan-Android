@@ -9,7 +9,12 @@ data class MatchingListResponse(
     @SerializedName("header")
     val header: Header
 )
-
+data class MyMatchingResponse(
+    @SerializedName("body")
+    val body: MatchingListBody,
+    @SerializedName("header")
+    val header: Header
+)
 data class MatchingListBody(
     @SerializedName("memberGood")
     val memberGood: Int,

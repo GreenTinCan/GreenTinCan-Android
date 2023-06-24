@@ -8,6 +8,7 @@ import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
 import com.example.protalktime.BuildConfig
 import com.example.protalktime.data.network.api.MatchingApi
+import com.example.protalktime.data.network.api.NotificationApi
 import com.example.protalktime.data.network.api.profile.ProfileApi
 import org.koin.dsl.module
 import retrofit2.Retrofit
@@ -43,5 +44,8 @@ val networkModule = module {
     }
     single<ProfileApi> {
         get<Retrofit>().create(ProfileApi::class.java)
+    }
+    single<NotificationApi> {
+        get<Retrofit>().create(NotificationApi::class.java)
     }
 }

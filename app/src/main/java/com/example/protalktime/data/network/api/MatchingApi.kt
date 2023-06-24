@@ -3,6 +3,8 @@ package com.example.protalktime.data.network.api
 import com.example.protalktime.data.model.meeting.MatchingCreateRequest
 import com.example.protalktime.data.model.meeting.MatchingCreateResponse
 import com.example.protalktime.data.model.meeting.MatchingListResponse
+import com.example.protalktime.data.model.meeting.MyMatchingResponse
+import com.example.protalktime.util.Constants
 import retrofit2.http.Body
 import retrofit2.http.GET
 import retrofit2.http.Header
@@ -23,4 +25,8 @@ interface MatchingApi {
         @Header("Authorization") authorization: String,
         @Body requestBody: MatchingCreateRequest
         ): MatchingCreateResponse
+    @GET("/gather/self")
+    suspend fun getMyMatching(
+        @Header("Authorization") authorization: String = Constants.userInfo.authorization,
+    ): MyMatchingResponse
 }
