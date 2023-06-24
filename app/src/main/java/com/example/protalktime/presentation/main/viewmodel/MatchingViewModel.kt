@@ -8,6 +8,8 @@ import com.example.protalktime.data.model.meeting.MatchingCreateRequest
 import com.example.protalktime.data.model.meeting.MatchingCreateResponse
 import com.example.protalktime.data.model.meeting.MatchingCreateResponseBody
 import com.example.protalktime.data.model.meeting.MatchingListBody
+import com.example.protalktime.data.model.meeting.ReviewRequest
+import com.example.protalktime.data.model.meeting.ReviewResponse
 import com.example.protalktime.data.repository.meeting.MatchingRepository
 import com.example.protalktime.util.Event
 import kotlinx.coroutines.launch
@@ -22,6 +24,10 @@ class MatchingViewModel(private val repository: MatchingRepository): ViewModel()
     private val _createMatchingResponse: MutableLiveData<Event<MatchingCreateResponseBody>> = MutableLiveData<Event<MatchingCreateResponseBody>>()
     val createMatchingResponse: LiveData<Event<MatchingCreateResponseBody>>
         get() = _createMatchingResponse
+
+    private val _createReviewResponse: MutableLiveData<Event<Boolean>> = MutableLiveData<Event<Boolean>>()
+    val createReviewResponse: LiveData<Event<Boolean>>
+        get() = _createReviewResponse
 
     fun getMatchingList(authorization: String, bigLocation: String, smallLocation: String) {
         viewModelScope.launch {
@@ -47,6 +53,20 @@ class MatchingViewModel(private val repository: MatchingRepository): ViewModel()
                 }
             } catch (e: Throwable) {
                 Timber.d("매칭 생성 요청 실패")
+            }
+        }
+    }
+
+    fun requestReviewCreation(authorization: String, requestBody: ReviewRequest) {
+        viewModelScope.launch {
+            try {
+                val response = repository.requestReviewCreation(authorization, requestBody)
+                if(response.header.status == 200) {
+                    _createReviewResponse.value = Event(response.body)
+                    Timber.d("리뷰 등록 요청 성공")
+                }
+            } catch (e: Throwable) {
+                Timber.d("리뷰 등록 요청 실패")
             }
         }
     }

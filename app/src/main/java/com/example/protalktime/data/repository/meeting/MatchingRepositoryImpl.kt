@@ -3,6 +3,8 @@ package com.example.protalktime.data.repository.meeting
 import com.example.protalktime.data.model.meeting.MatchingCreateRequest
 import com.example.protalktime.data.model.meeting.MatchingCreateResponse
 import com.example.protalktime.data.model.meeting.MatchingListResponse
+import com.example.protalktime.data.model.meeting.ReviewRequest
+import com.example.protalktime.data.model.meeting.ReviewResponse
 import com.example.protalktime.data.repository.meeting.datasource.MatchingDataSource
 
 class MatchingRepositoryImpl(private val dataSource: MatchingDataSource) : MatchingRepository {
@@ -20,5 +22,12 @@ class MatchingRepositoryImpl(private val dataSource: MatchingDataSource) : Match
         requestBody: MatchingCreateRequest
     ): MatchingCreateResponse {
         return dataSource.requestMatchingCreation(authorization, requestBody)
+    }
+
+    override suspend fun requestReviewCreation(
+        authorization: String,
+        requestBody: ReviewRequest
+    ): ReviewResponse {
+        return dataSource.requestReviewCreation(authorization, requestBody)
     }
 }

@@ -51,4 +51,13 @@
             android:id="@+id/action_signInFragment_to_meetingMainFragment"
             app:destination="@id/meetingMainFragment" />
     </fragment>
+    <fragment
+        android:id="@+id/reviewFragment"
+        android:name="com.example.protalktime.presentation.main.ReviewFragment"
+        android:label="fragment_review"
+        tools:layout="@layout/fragment_review" >
+        <action
+            android:id="@+id/action_reviewFragment_to_meetingMainFragment"
+            app:destination="@id/meetingMainFragment" />
+    </fragment>
 </navigation>

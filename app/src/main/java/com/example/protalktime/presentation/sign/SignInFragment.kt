@@ -18,5 +18,10 @@ class SignInFragment : BaseFragment<FragmentSignInBinding>(R.layout.fragment_sig
             Constants.userInfo.authorization = binding.etId.text.toString()
             navigate(R.id.action_signInFragment_to_meetingMainFragment)
         }
+
+        binding.tvSubSubtitle.setOnClickListener {
+            navigate(R.id.action_signInFragment_to_reviewFragment)
+        }
+
     }
 }
